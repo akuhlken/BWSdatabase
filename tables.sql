@@ -1,5 +1,7 @@
 -- Researcher table(s):
-
+create table Researcher{
+    
+}
 
 
 
