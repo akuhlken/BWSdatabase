@@ -16,8 +16,12 @@ CREATE TABLE Sample (
     CoarseFraction DECIMAL(5,4),
     FineFraction DECIMAL(5,4),
     LayerNumber INT UNSIGNED,
-    FOREIGN KEY (OutcropID) REFERENCES Outcrop(ID),
+    FOREIGN KEY (OutcropID) REFERENCES Outcrop(ID)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE,
     FOREIGN KEY (ResearcherID) REFERENCES Researcher(ID)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
 );
 
 -- Photo table:
@@ -33,7 +37,6 @@ CREATE TABLE Photo (
 
 
 -- SamplePhoto table:
-
 CREATE TABLE SamplePhoto (
     PhotoID INT UNSIGNED,
     SampleID INT UNSIGNED,
@@ -47,9 +50,7 @@ CREATE TABLE SamplePhoto (
 );
 
 
-
 -- SampleChemData table:
-
 
 
 
@@ -68,7 +69,6 @@ CREATE TABLE Outcrop (
 );
 
 
-
 -- StratLayer table:
 CREATE TABLE StratLayer (
     OutcropID INT UNSIGNED,
@@ -78,4 +78,6 @@ CREATE TABLE StratLayer (
     BottomDepth INT NOT NULL,
     PRIMARY KEY (OutcropID, LayerNumber),
     FOREIGN KEY (OutcropID) REFERENCES Outcrop(ID) 
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
 );
