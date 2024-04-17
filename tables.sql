@@ -16,7 +16,8 @@ CREATE TABLE Sample (
     CoarseFraction DECIMAL(5,4),
     FineFraction DECIMAL(5,4),
     LayerNumber INT UNSIGNED,
-    -- FOREIGN KEYS
+    FOREIGN KEY (OutcropID) REFERENCES Outcrop(ID),
+    FOREIGN KEY (ResearcherID) REFERENCES Researcher(ID)
 );
 
 -- Photo table:
