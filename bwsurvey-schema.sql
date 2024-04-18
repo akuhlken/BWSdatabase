@@ -1,3 +1,5 @@
+-- Bedrock weatering survey database project
+-- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
 USE bwsurvey;
 DROP TABLE IF EXISTS Researcher;
 DROP TABLE IF EXISTS Sample;
