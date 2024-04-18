@@ -1,3 +1,4 @@
+USE bwsurvey;
 DROP TABLE IF EXISTS Researcher;
 DROP TABLE IF EXISTS Sample;
 DROP TABLE IF EXISTS SamplePhoto;
