@@ -1,7 +1,15 @@
+DROP TABLE IF EXISTS Researcher;
+DROP TABLE IF EXISTS Sample;
+DROP TABLE IF EXISTS SamplePhoto;
+DROP TABLE IF EXISTS SampleChemData;
+DROP TABLE IF EXISTS Outcrop;
+DROP TABLE IF EXISTS Photo;
+DROP TABLE IF EXISTS StratLayer;
+
 -- Researcher table(s):
 CREATE TABLE Researcher (
     ID INT UNSIGNED AUTO_INCREMENT,
-    Name varchar(64) NOT NULL,
+    Name VARCHAR(64) NOT NULL,
     GradYear YEAR,
     FirstAdvisor INT UNSIGNED,
     SecondAdvisor INT UNSIGNED,
@@ -9,7 +17,7 @@ CREATE TABLE Researcher (
     FOREIGN KEY (FirstAdvisor) references Researcher(ID)
         ON DELETE RESTRICT
         ON UPDATE CASCADE,
-    FOREIGN KEY (SecondAdvisorAdvisor) references Researcher(ID)
+    FOREIGN KEY (SecondAdvisor) references Researcher(ID)
         ON DELETE RESTRICT
         ON UPDATE CASCADE
 );
@@ -39,7 +47,7 @@ CREATE TABLE Sample (
 CREATE TABLE Photo (
     ID INT UNSIGNED AUTO_INCREMENT,
     Type VARCHAR(64) NOT NULL,
-    Image VARBINARY(max) NOT NULL UNIQUE,
+    Image MEDIUMBLOB NOT NULL,
     Date DATE NOT NULL,
     Time TIME,
     PRIMARY KEY (ID)
@@ -137,7 +145,7 @@ CREATE TABLE SampleChemData (
     SumTrOx FLOAT NOT NULL,
     PrctTrOx FLOAT NOT NULL,
     PRIMARY KEY(SampleID,TestNum)
-)
+);
 
 
 
