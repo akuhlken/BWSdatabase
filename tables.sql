@@ -1,7 +1,18 @@
 -- Researcher table(s):
-
-
-
+CREATE TABLE Researcher (
+    ID INT UNSIGNED AUTO_INCREMENT,
+    Name varchar(64) NOT NULL,
+    GradYear YEAR,
+    FirstAdvisor INT UNSIGNED,
+    SecondAdvisor INT UNSIGNED,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (FirstAdvisor) references Researcher(ID)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE,
+    FOREIGN KEY (SecondAdvisorAdvisor) references Researcher(ID)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
+);
 
 -- Sample table:
 CREATE TABLE Sample (
