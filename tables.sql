@@ -26,12 +26,12 @@ CREATE TABLE Sample (
 
 -- Photo table:
 CREATE TABLE Photo (
-   ID INT UNSIGNED AUTO_INCREMENT,
-   Type varchar(64) NOT NULL,
-   Image VARBINARY(max) NOT NULL UNIQUE,
-   Date DATE NOT NULL,
-   Time TIME,
-   PRIMARY KEY (ID)
+    ID INT UNSIGNED AUTO_INCREMENT,
+    Type VARCHAR(64) NOT NULL,
+    Image VARBINARY(max) NOT NULL UNIQUE,
+    Date DATE NOT NULL,
+    Time TIME,
+    PRIMARY KEY (ID)
 );
 
 
@@ -133,9 +133,9 @@ CREATE TABLE SampleChemData (
 -- Outcrop table:
 CREATE TABLE Outcrop (
     ID INT UNSIGNED AUTO_INCREMENT,
-    Name varchar(64) NOT NULL UNIQUE,
+    Name VARCHAR(64) NOT NULL UNIQUE,
     Description VARCHAR(500) NOT NULL,
-    Location Point NOT NULL,
+    Location POINT NOT NULL,
     3Dmodel VARCHAR(100),
     OrthophotoID INT UNSIGNED,
     PRIMARY KEY (ID),
