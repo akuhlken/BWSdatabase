@@ -49,7 +49,7 @@ CREATE TABLE Sample (
 -- Photo table:
 CREATE TABLE Photo (
     ID INT UNSIGNED AUTO_INCREMENT,
-    Type VARCHAR(64) NOT NULL,
+    Type VARCHAR(64) NOT NULL CHECK (Type IN ('outcrop', 'thin section', 'field', 'lab')),
     Image MEDIUMBLOB NOT NULL,
     Date DATE NOT NULL,
     Time TIME,
