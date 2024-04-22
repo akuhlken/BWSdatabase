@@ -1,6 +1,8 @@
 -- Bedrock weatering survey database project
 -- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
 
+-- for inserting everything else, this may be a helpful tool: https://simranjitk.github.io/sql-converter/
+
 INSERT INTO Researcher (Name)
 VALUES ("Lyman Persico"),
        ("Nick Bader");
