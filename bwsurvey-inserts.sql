@@ -40,7 +40,7 @@ VALUES ;
 
 
 LOAD DATA LOCAL INFILE 'C:/home/starkc/database/Outcrop(Sheet1).csv' 
-INTO TABLE Sample
+INTO TABLE Outcrop
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
