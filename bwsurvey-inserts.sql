@@ -3,9 +3,15 @@
 
 -- researcher, sample, photo, samplephoto, samplechemdata, outcrop, stratlayer
 
+INSERT INTO Researcher (Name)
+VALUES ("Lyman Persico"),
+       ("Nick Bader");
+
 INSERT INTO Researcher (Name, GradYear, FirstAdvisor, SecondAdvisor)
-VALUES ("Coden Stark", 2024, "Lyman Persico", "Nick Bader"),
-       ("Harsh Chopra", 2024, "Nick Bader", "Lyman Persico");
+VALUES ("Coden Stark", 2024, 1, 2),
+       ("Harsh Chopra", 2024, 2, 1),
+       ("Cameryn Greenough", 2024, 2, 1),
+       ("Megan Driggers", 2023, 2, 1);
 
 
 LOAD DATA LOCAL INFILE 'C:/<PATH TO YOUR FILE>/_____.csv' 
@@ -31,6 +37,14 @@ VALUES ;
 
 INSERT INTO Outcrop (Name, Description, Location, 3Dmodel)
 VALUES ;
+
+
+LOAD DATA LOCAL INFILE 'C:/home/starkc/database/Outcrop(Sheet1).csv' 
+INTO TABLE Sample
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS ('Name', 'Description', 'Location', '3Dmodel', 'Orthophoto');
 
 
 INSERT INTO StratLayer (OutcropID, LayerNumber, Description, TopDepth, BottomDepth)
