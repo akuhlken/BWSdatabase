@@ -19,7 +19,8 @@ filename = r'C:\Users\coden\Downloads\Outcrop(Sheet1).csv'
 # change to where you want the data to go
 savelocation = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\results.txt"
 
-insertStatement = "INSERT INTO Outcrop (Name, Description, Location, 3Dmodel) VALUES"
+insertStatement = "INSERT INTO Outcrop (Name, Description, Location, 3Dmodel)\nVALUES"
+startStatement = insertStatement
 
 with open(filename, 'r') as csvfile:
     datareader = csv.reader(csvfile)
@@ -37,7 +38,10 @@ with open(filename, 'r') as csvfile:
                 else:
                     insertValues = ",".join([insertValues,column])
             insertValues = insertValues + ")"
-            insertStatement = ", ".join([insertStatement, insertValues])
+
+            if insertStatement == startStatement:
+                insertStatement = " ".join([insertStatement,insertValues])
+            insertStatement = ",\n".join([insertStatement,insertValues])
     insertStatement = insertStatement + ";"
     #print(insertStatement)
         
