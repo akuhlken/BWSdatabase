@@ -1,8 +1,6 @@
 -- Bedrock weatering survey database project
 -- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
 
--- researcher, sample, photo, samplephoto, samplechemdata, outcrop, stratlayer
-
 INSERT INTO Researcher (Name)
 VALUES ("Lyman Persico"),
        ("Nick Bader");
@@ -11,18 +9,14 @@ INSERT INTO Researcher (Name, GradYear, FirstAdvisor, SecondAdvisor)
 VALUES ("Coden Stark", 2024, 1, 2),
        ("Harsh Chopra", 2024, 2, 1),
        ("Cameryn Greenough", 2024, 2, 1),
-       ("Megan Driggers", 2023, 2, 1);
+       ("Megan Driggers", 2023, 2, 1)
+       ("Rebecca Patterson", 2025, 2, 1);
 
 
-LOAD DATA LOCAL INFILE 'C:/<PATH TO YOUR FILE>/_____.csv' 
-INTO TABLE Sample
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS ('Sample ID', 'Date Collected', 'Sample Type', 'Layer', 'Corrected depth (cm)', 'Description', 'Color');
-
-INSERT INTO Sample (ID, OutcropID, ResearcherID, Type, Depth, Description, Date)
-VALUES ;
+INSERT INTO Sample (ID, OutcropID, ResearcherID, Type, Depth, Description, Date, LayerNumber)
+VALUES ("RP23-SG6-1", 1, 7, "Rock clast", 54, "Clast from C2 horizon w/ calcium carbonate coating (due to weathering/leeching in modern day soil)", '2023-06-06', 3),
+    ("RP23-SG6-2", 1, 7, "Rock clast", 23, "Mostly unweathered Umatilla basalt clast from R horizon", '2023-06-06', 4),
+    ("RP23-SG6-3", 1, 7, "Baked soil", -3, "From cooked layer, not quite sure what this represents (could be cooked soil), crumbly, lots of mineral grains", '2023-06-06', 5);
 
 
 -- join table... don't need?
@@ -31,14 +25,11 @@ VALUES ;
 
 
 -- so hard to do...
-INSERT INTO SampleChemData ()
-VALUES ;
+INSERT INTO SampleChemData (TestNum, SampleID, LabID, Depth, Description, Date, SiO2, TiO2, Al2O3, FeO, MnO, MgO, CaO, Na2O, K2O, P2O5, Sum, LOI, SiO2n, TiO2n, Al2O3n, FeOn, MnOn, MgOn, CaOn, Na2On, K2On, P2O5n, Ni, Cr, Sc, V, Ba, Rb, Sr, Zr, Y, Nb, Ga, Cu, Zn, Pb, La, Ce, Th, Nd, U, SumTr, PrctTr, MinPlusTr, MajPlusTrOx, w_LOI, IfFerric, NiO, Cr2O3, Sc2O3, V2O3, BaO, Rb2O, SrO, ZrO2, Y2O3, Nb2O5, Ga2O3, CuO, ZnO, PbO, La2O3, CeO2, ThO2, Nd2O3, U2O3, SumTrOx, PrctTrOx)
+VALUES (1, "HC23-WEH1-1", "GAL-NB-165-1",70, "rock", '2023-08-03',54.83,2.729,13.01,13.5,0.203,2.44,5.99,3.26,1.81,0.801,98.58,1.19,55.61,2.77,13.2,13.7,0.21,2.48,6.08,3.31,1.84,0.81,1,0,33,162,851,55,315,244,53,17.7,24,11,162,8,31,68,6,43,2,2086,0.21,98.79,98.84,100.03,101.53,0.9,0,50.4,238,950.6,59.8,372.9,329.4,66.9,25.3,32.5,14,201.3,9.2,36.4,84.2,6.5,50.2,1.7,2530,0.25);
 
 
-
-INSERT INTO Outcrop (Name, Description, Location)
-VALUES ("SGQ1", "Exposed cliffs of columnar Umatilla basalt along entrance road to Spring Gulch, east of the SG sites. Above the cliff is a field with about a meter of loess, modern soil, and grass. It's a southeast facing hill slope where the cliff wall is unstable/separating from base and there's spheroidally rounded talus beneath. The base of the outcrop has been flattened by people for quarrying purposes.", Point(-118.898303, 46.005325));
-
+-- all outcrops with 3D models
 INSERT INTO Outcrop (Name, Description, Location, 3Dmodel)
 VALUES ("SG6", "Small tributary of Spring Gulch on North Side of Spring Gulch on a south-facing slope. 1st order drainage. Hillslope continuously mantled in thin colluvium with sparse exposures of bedrock. Colluvium ranges in thickness from 30 cm to 80 cm from bottom of site to top. The site is approximately 10 meters from bottom of drainage. Backslope of hillslope; slope shape is linear. Frenchman Springs overlain by Umatilla basalt.", Point(-118.913026, 46.0077), "https://cloud.pix4d.com/dataset/1540228/model?shareToken=b20c98de-6000-41c2-a213-67660ebdbd9c"),
     ("KID1", "Along the Kennewick Main Channel (irrigation canal) in the roadcut (channelcut?). On a northwest facing slope with Pomona, Ice Harbor, and Elephant Mountain basalts. The hillslope below the outcrop is covered in sagebrush and talus slopes of Ice Harbor (?) basalt. In the outcrop, the overlying basalt is likely Ice Harbor, the lower basalt is likely Elephant Mountain, and a soil is present between them.", Point(-119.274435, 46.181069), "https://cloud.pix4d.com/dataset/1555260/model?shareToken=0ed39edc-7a57-420a-a2cb-5b8f9b1d6683"),
@@ -54,14 +45,23 @@ VALUES ("SG6", "Small tributary of Spring Gulch on North Side of Spring Gulch on
     ("BM1", "Basalt cliffs exposed in a roadcut along the road to Jubilee Lake. Down the road from the outlook/pull out where Dylan worked on BM2. It's a south facing hillslope with a contact between the upper Lookingglass Basalt (rubbly and columnar) and the lower Grande Ronde N2 (vesicular and fractured). Between the two basalt flows is a very red layer with core stones and paleosoil. Above the upper Lookingglass basalt is a shallow slope with grass and shrubs. Below the outcrop is a talus pile with basalt clasts of various sizes. The Frenchman Springs basalt is also visible on the same hillslope, exposed near the top of the slope to the right of the outcrop.", Point(-118.046241, 45.775223), "https://cloud.pix4d.com/dataset/1566671/model?shareToken=5a4804b0-423e-4da5-9b06-7f88eb21dfdb"),
     ("WEH1", "On old paved road off of Oregon HW 204, the Weston-Elgin Highway. The contact between Grande Ronde N2 (lower) and Lookingglass (upper) is exposed in a roadcut along the highway, but is closer to road level (about 2 meters up) around the corner in the outcrop. Between the two basalt layers is a very red layer with vesicular basalt and red clay-y to more solid material. The Lookingglass is unburied and visible all along the roadcut, but the contact and lower N2 basalt was mostly buried. Below the outcrop is a mix of fine grained sediment and basalt talus. It's a southeast facing hillslope.", Point(-118.119597, 45.787658), "https://cloud.pix4d.com/dataset/1568965/model?shareToken=bab13421-5184-4829-9484-b88aa678391f");
 
-
-LOAD DATA LOCAL INFILE "C:\Users\coden\Downloads\Outcrop(Sheet1).csv" 
-INTO TABLE Outcrop
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS ('Name', 'Description', 'Location', '3Dmodel', 'Orthophoto');
+-- SGQ1 doesn't have a 3D scan.
+INSERT INTO Outcrop (Name, Description, Location)
+VALUES ("SGQ1", "Exposed cliffs of columnar Umatilla basalt along entrance road to Spring Gulch, east of the SG sites. Above the cliff is a field with about a meter of loess, modern soil, and grass. It's a southeast facing hill slope where the cliff wall is unstable/separating from base and there's spheroidally rounded talus beneath. The base of the outcrop has been flattened by people for quarrying purposes.", Point(-118.898303, 46.005325));
 
 
+
+-- For SG6 only
 INSERT INTO StratLayer (OutcropID, LayerNumber, Description, TopDepth, BottomDepth)
-VALUES ;
+VALUES (1, 1, "A-horizon. Frequent fine roots, very slight darkening, greyer in color, less gravel, dominated by sands and silts", 72, 69),
+    (1, 2, "C1 horizon. Silty sandy C, rock fragments of basalt up to 3cm in width. Angular, fine to very fine roots.", 69, 60),
+    (1, 3, "C2 horizon. Lower boundary is abrupt and irregular, coarse-fragmented horizon with clasts up to 5cm, deposition of CaCO3 rinds on bottom of basalt clasts", 60, 47),
+    (1, 4, "Relatively unweathered Umatilla basalt. Fractured, not very vesicular. Max joint distance 20cm in the veritcal direction and horizontal fractures are 1-5cm apart.", 47, 0),
+    (1, 5, "'cooked layer,' top of Frenchman Sorings basalt. Surface with white top of layer that did not fizz when HCl was applied. Manganese oxides present. Thin horizontal fractures with bright red streaks of presumably cooked minerals. Upper contact us abrupt and wavy.", 0, -8),
+    (1, 6, "Upper contact is smooth and clear. 'pebble layer' verticle fractures spaced every 3-5mm that are filled with yellowish greenis redistributed sillicas or clays. Series of horizontal fractures that are very fine, mm in spacing. Pebbly material is dark brown-dark red in color, little evidence of primary minerals present. Bigger pebbles on bottom of layer, smaller pebbles near top of layer. Lower contact is abrupt and irregular. ", -8, -29),
+    (1, 7, "more competant spheroidally weathered vesicular basalt. Vesicles are filled with powdery oxides. Likely Fe and Mn oxides. This basalt is heavily weathered to a purple-ish color.Sugary/powdery crystalline material in vesicles, flaky yellowish powder, red infillings. Silica crust.", -29, -70),
+    (1, 8, "abrupt and wavy upper boundary. Model layer, ledge/step former. Vesicular, up to 1cm in size, less weathered, more resistant than overlying layer. Less infillings of orangey material. White material fizzes with HCl, likely accumulation of CaCO3.", -70, -79),
+    (1, 9, "more resistant, deeply weathered basalt with lots of colors. Reddish and orange indicating mire intensely weathered between cores of basalt. Less weathered basalt still has vesicles completely filled with material that looks like clays, representing intense weathering of basalt and little primary minerals present.", -79, -100),
+    (1, 10, "deeply weathered basalt with more resistant corestone--interiors of corestones behave more like rock and less like sapprolite. Entire layer graded top dowb from more to less weathered. Cores at bottom are darker and less weathered, most vesicles filled . Pervasive vertical and horizontal joints filled with CaCO3 corresponding to its position near modern colluvium. Between corestone: black-green-grey fine-grained matrix, can break apart with fingers, no distrinct basalt clasts. Stage 4 saprolite? Deeply weathered with some primary vesicles present.", -100, -155),
+    (1, 11, "More weathered bedrock, 45 cm thick. Slightly vesicular basalt, thuds with hammer. Vesicled filled with reddish or yellowish material. Chemical alteration present. Corestones are 5 to 25 cm wide.", -155, -200),
+    (1, 12, "vesicles and CaCO3 decreasing as you go down the layer. Very unweathered. light reddening on fractured surfaces.", -200, -250);
