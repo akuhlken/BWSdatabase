@@ -8,6 +8,13 @@ VALUES ("Coden Stark", 2024, "Lyman Persico", "Nick Bader"),
        ("Harsh Chopra", 2024, "Nick Bader", "Lyman Persico");
 
 
+LOAD DATA LOCAL INFILE 'C:/<PATH TO YOUR FILE>/_____.csv' 
+INTO TABLE Sample
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS ('Sample ID', 'Date Collected', 'Sample Type', 'Layer', 'Corrected depth (cm)', 'Description', 'Color');
+
 INSERT INTO Sample (ID, OutcropID, ResearcherID, Type, Depth, Description, Date)
 VALUES ;
 
