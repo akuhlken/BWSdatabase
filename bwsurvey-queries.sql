@@ -19,11 +19,14 @@ CREATE PROCEDURE GetResearchersYear (name VARCHAR(64))
     FROM Researcher
     WHERE Researcher.Name = name;
 
---What is the relative age of ___ and ___ outcrops?
---What samples from each outcrop come from the Ice Harbor basalt flow?
 --How much ____ chemical was in a basalt sample from a particular outcrop?
 
-CREATE PROCEDURE GetChemicalFromSample (IN chemicalName VARCHAR(20), IN outcropName)
-    SELECT Researcher.Name, Researcher.Year
-    FROM Researcher
-    WHERE Researcher.Name = name;
+CREATE PROCEDURE GetAllChemicalFromSample (IN chemicalName VARCHAR(20), IN outcropID VARCAHR(8))
+    SELECT SampleChemData.chemicalName
+    FROM SampleChemData
+    INNER JOIN Sample ON Sample.ID = SampleChemData.SampleID
+    INNER JOIN Outcrop on Outcrop.ID = Sample.OutcropID
+    WHERE Outcrop.ID = outcropID;
+
+-- What photo is associated to a certain sample?
+-- Sample from stat layer
