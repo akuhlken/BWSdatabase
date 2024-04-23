@@ -50,9 +50,9 @@ CREATE TABLE Sample (
 CREATE TABLE Photo (
     ID INT UNSIGNED,
     Type VARCHAR(64) NOT NULL CHECK (Type IN ('outcrop', 'thin section', 'field', 'lab')),
-    Image MEDIUMBLOB NOT NULL,
     Date DATE NOT NULL,
     Time TIME,
+    ImageLink VARCHAR(128) NOT NULL,
     PRIMARY KEY (ID)
 );
 
@@ -60,7 +60,7 @@ CREATE TABLE Photo (
 -- SamplePhoto table:
 CREATE TABLE SamplePhoto (
     PhotoID INT UNSIGNED,
-    SampleID INT UNSIGNED,
+    SampleID VARCHAR(8),
     PRIMARY KEY (PhotoID, SampleID),
     FOREIGN KEY (PhotoID) references Photo(ID)
         ON DELETE RESTRICT
