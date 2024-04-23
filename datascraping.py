@@ -19,7 +19,7 @@ filename = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\databa
 # change to where you want the data to go
 savelocation = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\results.txt"
 
-insertStatement = "INSERT INTO Outcrop (Name, Description, Location, 3Dmodel)\nVALUES"
+insertStatement = "INSERT INTO Outcrop (ID, Description, Location, 3Dmodel)\nVALUES"
 startStatement = insertStatement
 
 with open(filename, 'r') as csvfile:

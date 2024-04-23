@@ -154,8 +154,7 @@ CREATE TABLE SampleChemData (
 
 -- Outcrop table:
 CREATE TABLE Outcrop (
-    ID INT UNSIGNED AUTO_INCREMENT,
-    Name VARCHAR(64) NOT NULL UNIQUE,
+    ID VARCHAR(8),
     Description VARCHAR(500) NOT NULL,
     Location POINT NOT NULL,
     3Dmodel VARCHAR(100),
@@ -169,9 +168,9 @@ CREATE TABLE Outcrop (
 
 -- StratLayer table:
 CREATE TABLE StratLayer (
-    OutcropID INT UNSIGNED,
+    OutcropID VARCHAR(8),
     LayerNumber INT UNSIGNED,
-    Description VARCHAR(100) NOT NULL,
+    Description TEXT NOT NULL,
     TopDepth INT NOT NULL,
     BottomDepth INT NOT NULL,
     PRIMARY KEY (OutcropID, LayerNumber),
