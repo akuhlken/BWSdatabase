@@ -31,7 +31,7 @@ CREATE TABLE Sample (
     OutcropID INT UNSIGNED NOT NULL,
     ResearcherID INT UNSIGNED NOT NULL,
     Type VARCHAR(16) NOT NULL,
-    Depth INT NOT NULL,
+    Depth INT, --changed
     Description VARCHAR(500) NOT NULL,
     Color VARCHAR(25),
     Date DATETIME NOT NULL,

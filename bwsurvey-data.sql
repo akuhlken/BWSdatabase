@@ -3,16 +3,16 @@
 
 -- for inserting everything else, this may be a helpful tool: https://simranjitk.github.io/sql-converter/
 
-INSERT INTO Researcher (Name)
-VALUES ("Lyman Persico"),
-       ("Nick Bader");
+INSERT INTO Researcher (ID, Name)
+VALUES (1, "Lyman Persico"),
+       (2, "Nick Bader");
 
 INSERT INTO Researcher (Name, GradYear, FirstAdvisor, SecondAdvisor)
-VALUES ("Coden Stark", 2024, 1, 2),
-       ("Harsh Chopra", 2024, 2, 1),
-       ("Cameryn Greenough", 2024, 2, 1),
-       ("Megan Driggers", 2023, 2, 1)
-       ("Rebecca Patterson", 2025, 2, 1);
+VALUES (3, "Coden Stark", 2024, 1, 2),
+       (4, "Harsh Chopra", 2024, 2, 1),
+       (5, "Cameryn Greenough", 2024, 2, 1),
+       (6, "Megan Driggers", 2023, 2, 1)
+       (7, "Rebecca Patterson", 2025, 2, 1);
 
 
 INSERT INTO Sample (ID, OutcropID, ResearcherID, Type, Depth, Description, Date, LayerNumber)
