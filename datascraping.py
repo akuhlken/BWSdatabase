@@ -14,7 +14,7 @@ import csv
 import os
 
 # change to the location of the file to scrape
-filename = r'C:\Users\coden\Downloads\Outcrop(Sheet1).csv'
+filename = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\databases\2023 Strat Sections (1).csv"
 
 # change to where you want the data to go
 savelocation = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\results.txt"
@@ -43,7 +43,7 @@ with open(filename, 'r') as csvfile:
                 insertStatement = " ".join([insertStatement,insertValues])
             insertStatement = ",\n".join([insertStatement,insertValues])
     insertStatement = insertStatement + ";"
-    #print(insertStatement)
+    print(insertStatement)
         
 with open(savelocation, "w") as save:
     save.write(insertStatement)
