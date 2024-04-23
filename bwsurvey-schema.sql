@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS StratLayer;
 
 -- Researcher table(s):
 CREATE TABLE Researcher (
-    ID INT UNSIGNED AUTO_INCREMENT,
+    ID INT UNSIGNED,
     Name VARCHAR(64) NOT NULL,
     GradYear YEAR,
     FirstAdvisor INT UNSIGNED,
@@ -48,7 +48,7 @@ CREATE TABLE Sample (
 
 -- Photo table:
 CREATE TABLE Photo (
-    ID INT UNSIGNED AUTO_INCREMENT,
+    ID INT UNSIGNED,
     Type VARCHAR(64) NOT NULL CHECK (Type IN ('outcrop', 'thin section', 'field', 'lab')),
     Image MEDIUMBLOB NOT NULL,
     Date DATE NOT NULL,
