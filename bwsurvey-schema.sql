@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS StratLayer;
 
 -- Researcher table(s):
 CREATE TABLE Researcher (
-    ID INT UNSIGNED AUTO_INCREMENT,
+    ID INT UNSIGNED,
     Name VARCHAR(64) NOT NULL,
     GradYear YEAR,
     FirstAdvisor INT UNSIGNED,
@@ -27,7 +27,7 @@ CREATE TABLE Researcher (
 
 -- Sample table:
 CREATE TABLE Sample (
-    ID VARCHAR(20) UNSIGNED PRIMARY KEY,
+    ID VARCHAR(20) PRIMARY KEY,
     OutcropID INT UNSIGNED NOT NULL,
     ResearcherID INT UNSIGNED NOT NULL,
     Type VARCHAR(16) NOT NULL,
@@ -48,7 +48,7 @@ CREATE TABLE Sample (
 
 -- Photo table:
 CREATE TABLE Photo (
-    ID INT UNSIGNED AUTO_INCREMENT,
+    ID INT UNSIGNED,
     Type VARCHAR(64) NOT NULL CHECK (Type IN ('outcrop', 'thin section', 'field', 'lab')),
     Image MEDIUMBLOB NOT NULL,
     Date DATE NOT NULL,
@@ -154,8 +154,7 @@ CREATE TABLE SampleChemData (
 
 -- Outcrop table:
 CREATE TABLE Outcrop (
-    ID INT UNSIGNED AUTO_INCREMENT,
-    Name VARCHAR(64) NOT NULL UNIQUE,
+    ID VARCHAR(8),
     Description VARCHAR(500) NOT NULL,
     Location POINT NOT NULL,
     3Dmodel VARCHAR(100),
@@ -169,9 +168,9 @@ CREATE TABLE Outcrop (
 
 -- StratLayer table:
 CREATE TABLE StratLayer (
-    OutcropID INT UNSIGNED,
+    OutcropID VARCHAR(8),
     LayerNumber INT UNSIGNED,
-    Description VARCHAR(100) NOT NULL,
+    Description TEXT NOT NULL,
     TopDepth INT NOT NULL,
     BottomDepth INT NOT NULL,
     PRIMARY KEY (OutcropID, LayerNumber),
