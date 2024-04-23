@@ -33,10 +33,10 @@ CREATE TABLE Sample (
     Type VARCHAR(16) NOT NULL,
     Depth INT NOT NULL,
     Description VARCHAR(500) NOT NULL,
-    Color VARCHAR(10),
+    Color VARCHAR(25),
     Date DATETIME NOT NULL,
-    CoarseFraction DECIMAL(5,4),
-    FineFraction DECIMAL(5,4),
+    CoarseFraction INT,
+    FineFraction INT,
     LayerNumber INT UNSIGNED,
     FOREIGN KEY (OutcropID) REFERENCES Outcrop(ID)
         ON DELETE RESTRICT
