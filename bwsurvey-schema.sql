@@ -27,8 +27,8 @@ CREATE TABLE Researcher (
 
 -- Sample table:
 CREATE TABLE Sample (
-    ID INT PRIMARY KEY,
-    SampleID VARCHAR(20),
+    ID INT UNSIGNED PRIMARY KEY,
+    Name VARCHAR(20),
     OutcropID INT UNSIGNED NOT NULL,
     ResearcherID INT UNSIGNED NOT NULL,
     Type VARCHAR(16) NOT NULL,
@@ -60,8 +60,8 @@ CREATE TABLE Photo (
 
 -- SamplePhoto table:
 CREATE TABLE SamplePhoto (
+    SampleID INT UNSIGNED,
     PhotoID INT UNSIGNED,
-    SampleID VARCHAR(8),
     PRIMARY KEY (PhotoID, SampleID),
     FOREIGN KEY (PhotoID) references Photo(ID)
         ON DELETE RESTRICT
@@ -75,7 +75,7 @@ CREATE TABLE SamplePhoto (
 -- SampleChemData table:
 CREATE TABLE SampleChemData (
     TestNum INT UNSIGNED,
-    SampleID VARCHAR(12) NOT NULL,
+    SampleID INT UNSIGNED NOT NULL,
     LabID VARCHAR(20) NOT NULL,
     Date DATE NOT NULL,
     SiO2 FLOAT NOT NULL,
