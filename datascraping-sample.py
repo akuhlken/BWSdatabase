@@ -15,7 +15,7 @@ with open(filename, 'r') as csvfile:
         insertValues = "("
         for column in row:
             if not column:
-                column = ""
+                column = "NULL"
             else:
                 try:
                     float(column)
