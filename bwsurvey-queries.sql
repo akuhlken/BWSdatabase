@@ -32,7 +32,7 @@ CREATE PROCEDURE GetAllChemicalsFromSample (IN chemicalName VARCHAR(20), IN outc
 CREATE PROCEDURE GetPhotosFromSample (IN sampleID VARCHAR(20))
     SELECT Photo.ImageLink
     FROM Photo
-    INNER JOIN SamplePhoto ON SamplePhoto.ID = Photo.ID
-    INNER JOIN Sample on Outcrop.ID = Sample.OutcropID
-    WHERE Outcrop.ID = outcropID;
+    INNER JOIN SamplePhoto ON SamplePhoto.PhotoID = Photo.ID
+    INNER JOIN Sample on Sample.ID = SamplePhoto.SampleID
+    WHERE Sample.ID = sampleID;
 -- Sample from stat layer
