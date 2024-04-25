@@ -16,8 +16,8 @@ VALUES (3, "Coden Stark", 2024, 1, 2),
        (7, "Rebecca Patterson", 2025, 2, 1);
 
 INSERT INTO Photo (ID, Type, Date, Time, ImageLink)
-VALUES (1, "outcrop", "2024-4-23", "14:30:00", "https://drive.google.com/file/d/1WEYwIKuqBSKJBRI3YGyXNx6WNleKFNVP/view");
-
+VALUES (1, "outcrop", "2023-06-06", "14:30:00", "https://drive.google.com/file/d/1WEYwIKuqBSKJBRI3YGyXNx6WNleKFNVP/view"),
+    (2, "outcrop", "2023-06-06");
 
 INSERT INTO SamplePhoto (PhotoID, SampleID)
 VALUES (1, 1);
@@ -171,7 +171,7 @@ INSERT INTO StratLayer (OutcropID, LayerNumber, Description, TopDepth, BottomDep
 
 
 -- Samples:
-INSERT INTO Sample (ID, OutcropID, ResearcherID, Type, Depth, Description, Date, CoarseFraction, FineFraction, LayerNumber)
+INSERT INTO Sample (ID, SampleID, OutcropID, ResearcherID, Type, Depth, Description, Date, CoarseFraction, FineFraction, LayerNumber)
 VALUES (1,"RP-23-SG6-1","SG6",7,"Rock Clast ",54,"Clast from C2 horizon w/ calcium carbonate coating (due to weathering/leeching in modern day soil)","7.5YR 5-2","June 6, 2023","","",3),
     (2,"RP23-SG6-2","SG6",7,"Basalt Clast",23,"Mostly unweathered Umatilla basalt clast from R horizon","10YR 5-1","June 6, 2023","","",4),
     (3,"RP23-SG6-3","SG6",7,"Baked Soil",-3,"From cooked layer, not quite sure what this represents (could be cooked soil), crumbly, lots of mineral grains","10YR 4-1","June 6, 2023","","",5),
@@ -276,7 +276,7 @@ VALUES (1,"RP-23-SG6-1","SG6",7,"Rock Clast ",54,"Clast from C2 horizon w/ calci
     (102,"CS23-WC2-4","WC2",3,"Platy structure for thin section",50,"platy structure from between basalt clasts in right side of the layer, for thin section.","","June 20, 2023","","",3),
     (103,"CS23-WC2-5","WC2",3,"non-basalt crumbles for thin section",11,"crumbly sample of material from layer. Collected from a loose surface on the left side of the outcrop, for thin section.","","June 20, 2023","","",3),
     (104,"CS23-WC2-6","WC2",3,"non-basalt crumbles",30,"same as CS23-WC2-6, blue blocky material. crumbled off of surface by hand.","Gley 1 5/N","June 20, 2023","","",3),
-    (105,"CS23-WC2-7","WC2",3,"structure sample, XRF",45,"columnar structure from the top right of the layer. potentially formed from cooking? "little fingers"","Gley 1 4/N","June 20, 2023","","",3),
+    (105,"CS23-WC2-7","WC2",3,"structure sample, XRF",45,"columnar structure from the top right of the layer. potentially formed from cooking? 'little fingers'","Gley 1 4/N","June 20, 2023","","",3),
     (106,"CS23-WC2-8","WC2",3,"soil? structure sample",-10,"ped-like structure nearest to contact, similar in appearance to ped layer from WC1. was pulled and collected by hand.","Gley 1 4/N","June 20, 2023","","",4),
     (107,"CS23-WC2-9","WC2",3,"basalt clast",-45,"Vesicular Pomona basalt clast making up the float clasts. Was already fractured, sample is less than half of the original clast.","5Y 7/1","June 20, 2023","","",5),
     (108,"CS23-WC2-10","WC2",3,"soil? structure sample, XRF",-35,"Blocky and crumbles into tiny (sub 1/2cm) pieces. found between float clasts ","5Y 8/1","June 20, 2023","","",5),
