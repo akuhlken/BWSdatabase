@@ -75,7 +75,7 @@ CREATE TABLE SamplePhoto (
 -- SampleChemData table:
 CREATE TABLE SampleChemData (
     TestNum INT UNSIGNED,
-    SampleID INT UNSIGNED NOT NULL,
+    SampleID VARCHAR(12) NOT NULL,
     LabID VARCHAR(20) NOT NULL,
     Date DATE NOT NULL,
     SiO2 FLOAT NOT NULL,
