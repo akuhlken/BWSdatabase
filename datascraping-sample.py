@@ -14,10 +14,13 @@ with open(filename, 'r') as csvfile:
     for row in datareader:
         insertValues = "("
         for column in row:
-            try:
-                float(column)
-            except:
-                column = f"\"{column}\""
+            if not column:
+                column = "NULL"
+            else:
+                try:
+                    float(column)
+                except:
+                    column = f"\"{column}\""
 
             if insertValues == "(":
                 insertValues = "".join([insertValues,column])
