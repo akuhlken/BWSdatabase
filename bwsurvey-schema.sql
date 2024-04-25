@@ -76,8 +76,6 @@ CREATE TABLE SampleChemData (
     TestNum INT UNSIGNED,
     SampleID VARCHAR(12) NOT NULL,
     LabID VARCHAR(20) NOT NULL,
-    Depth INT NOT NULL,
-    Description VARCHAR(500) NOT NULL,
     Date DATE NOT NULL,
     SiO2 FLOAT NOT NULL,
     TiO2 FLOAT NOT NULL,
