@@ -1,5 +1,4 @@
 import csv
-import os
 
 # change to the location of the file to scrape
 filename = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\databases\Samples2023 (3).csv"
@@ -16,7 +15,7 @@ with open(filename, 'r') as csvfile:
         insertValues = "("
         for column in row:
             try:
-                int(column)
+                float(column)
             except:
                 column = f"\"{column}\""
 
