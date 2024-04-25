@@ -1,17 +1,4 @@
-# loop through all rows in a csv file
-
-# parse each row
-
-# sort relevant information into the correct insert order and write SQL insert statement
-# put insert statement into a doc.
-
-
-
-
-# input must not have column names
-
 import csv
-import os
 
 # change to the location of the file to scrape
 filename = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\databases\2023 Strat Sections (1).csv"
