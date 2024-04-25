@@ -42,4 +42,10 @@ CREATE PROCEDURE GetPhotosFromSample (IN sampleID VARCHAR(20))
     INNER JOIN SamplePhoto ON SamplePhoto.PhotoID = Photo.ID
     INNER JOIN Sample on Sample.ID = SamplePhoto.SampleID
     WHERE Sample.ID = sampleID;
--- Sample from stat layer
+
+-- Sample from strat layer
+CREATE PROCEDURE GetSampleFromStratLayer (IN outcropID VARCHAR(8), IN layerNumber INT UNSIGNED)
+    SELECT Sample.*
+    FROM Sample
+    INNER JOIN StratLayer ON StratLayer.OutcropID = Sample.OutcropID AND StratLayer.LayerNumber = Sample.LayerNumber
+    WHERE Sample.OutcropID = outcropID AND Sample.layerNumber
