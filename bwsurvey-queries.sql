@@ -1,10 +1,17 @@
---Where can I find samples between ___ and ___ depth in the studied sites?
+USE bwsurvey;
+DROP PROCEDURE IF EXISTS GetAllSamplesBetweenDepths;
+DROP PROCEDURE IF EXISTS GetAllResearchersFromSite;
+DROP PROCEDURE IF EXISTS GetResearchersYear;
+DROP PROCEDURE IF EXISTS GetAllChemicalsFromSample;
+DROP PROCEDURE IF EXISTS GetPhotosFromSample;
+
+-- Where can I find samples between ___ and ___ depth in the studied sites?
 CREATE PROCEDURE GetAllSamplesBetweenDepths (low Decimal(6,2), high Decimal(6,2))
     SELECT *
     FROM Sample
     WHERE Depth > low AND Depth < high;
 
---Who collected data at sites in ____?
+-- Who collected data at sites in ____?
 CREATE PROCEDURE GetAllResearchersFromSite (siteID VARCHAR(8))
     SELECT Researcher.Name
     FROM Researcher
@@ -12,16 +19,16 @@ CREATE PROCEDURE GetAllResearchersFromSite (siteID VARCHAR(8))
     INNER JOIN Outcrop ON Sample.OutcropID = Outcrop.ID
     WHERE Outcrop.ID = siteID;
 
---What year(s) was ___ person doing research?
+-- What year(s) was ___ person doing research?
 
 CREATE PROCEDURE GetResearchersYear (name VARCHAR(64))
     SELECT Researcher.Name, Researcher.Year
     FROM Researcher
     WHERE Researcher.Name = name;
 
---How much ____ chemical was in a basalt sample from a particular outcrop?
+-- How much ____ chemical was in a basalt sample from a particular outcrop?
 
-CREATE PROCEDURE GetAllChemicalsFromSample (IN chemicalName VARCHAR(20), IN outcropID VARCAHR(8))
+CREATE PROCEDURE GetAllChemicalsFromSample (IN chemicalName VARCHAR(20), IN outcropID VARCHAR(8))
     SELECT SampleChemData.chemicalName
     FROM SampleChemData
     INNER JOIN Sample ON Sample.ID = SampleChemData.SampleID
