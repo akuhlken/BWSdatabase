@@ -1,3 +1,10 @@
+USE bwsurvey;
+DROP PROCEDURE IF EXISTS GetAllSamplesBetweenDepths;
+DROP PROCEDURE IF EXISTS GetAllResearchersFromSite;
+DROP PROCEDURE IF EXISTS GetResearchersYear;
+DROP PROCEDURE IF EXISTS GetAllChemicalsFromSample;
+DROP PROCEDURE IF EXISTS GetPhotosFromSample;
+
 -- Where can I find samples between ___ and ___ depth in the studied sites?
 CREATE PROCEDURE GetAllSamplesBetweenDepths (IN low Decimal(6,2), IN high Decimal(6,2))
     SELECT *

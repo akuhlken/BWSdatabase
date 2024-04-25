@@ -27,7 +27,8 @@ CREATE TABLE Researcher (
 
 -- Sample table:
 CREATE TABLE Sample (
-    ID VARCHAR(20) PRIMARY KEY,
+    ID INT PRIMARY KEY,
+    SampleID VARCHAR(20),
     OutcropID INT UNSIGNED NOT NULL,
     ResearcherID INT UNSIGNED NOT NULL,
     Type VARCHAR(16) NOT NULL,
