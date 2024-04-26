@@ -39,16 +39,16 @@ VALUES (1, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBS
     -- (20, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
     -- (21, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
     -- (22, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    -- (8, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (9, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (10, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (11, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (12, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (13, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (14, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (15, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (16, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z1N2C4euDcmP8i3WFkTA0SEegDm7NL0u/view"),
-    -- (17, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z4Js7IhZDVLjOc6Eo5KHgH23xRIi2EqH/view");
+    -- (23, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
+    -- (24, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
+    -- (25, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
+    -- (26, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
+    -- (27, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
+    -- (28, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
+    -- (29, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
+    -- (30, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
+    -- (31, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z1N2C4euDcmP8i3WFkTA0SEegDm7NL0u/view"),
+    -- (32, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z4Js7IhZDVLjOc6Eo5KHgH23xRIi2EqH/view");
 
 INSERT INTO SamplePhoto (PhotoID, SampleID)
 VALUES (1, 1);
