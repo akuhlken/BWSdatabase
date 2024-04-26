@@ -19,38 +19,41 @@ INSERT INTO Photo (ID, Type, Date, ImageLink)
 VALUES (1, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJBRI3YGyXNx6WNleKFNVP/view"),
     (2, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1WO6pOWkiIuvn6c3k17xQrYJL2-Go7u3Z/view"),
     (3, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    (4, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    (5, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    (6, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    (7, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    (8, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    (9, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    (10, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    (11, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    (12, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    (13, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    (14, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    (15, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    (16, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z1N2C4euDcmP8i3WFkTA0SEegDm7NL0u/view"),
-    (17, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z4Js7IhZDVLjOc6Eo5KHgH23xRIi2EqH/view");
+    (4, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
+    (5, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
+    (6, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z1N2C4euDcmP8i3WFkTA0SEegDm7NL0u/view"),
+    (7, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z4Js7IhZDVLjOc6Eo5KHgH23xRIi2EqH/view"),
     
-    -- (18, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    -- (19, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    -- (20, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    -- (21, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    -- (22, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1yW6-dURSnEV7YBYpwaJmhvW6RqPfzSF-/view"),
-    -- (23, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (24, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (25, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (26, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1uDUVCfuEPDa3NG8BQAiO-5wQfRPrU9lO/view"),
-    -- (27, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (28, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (29, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (30, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1dveOQrN4kfRIVr0bmmmI32M5-ZmD0Irs/view"),
-    -- (31, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z1N2C4euDcmP8i3WFkTA0SEegDm7NL0u/view"),
-    -- (32, "outcrop", "2023-06-28", "https://drive.google.com/file/d/1Z4Js7IhZDVLjOc6Eo5KHgH23xRIi2EqH/view");
+    (8, "outcrop", "2023-06-07", "https://drive.google.com/file/d/17CZcyVEnSF6x4ywACmc1ixV3SXcBX2ID/view"),
+    (9, "outcrop", "2023-06-07", "https://drive.google.com/file/d/1idj-Iuo3D4jrqwJpiZ9K2ISnDeqsA0Jt/view"),
+    (10, "outcrop", "2023-06-07", "https://drive.google.com/file/d/17dU8brWrsqhoRWl9_tqrX9qCAjIaFAmn/view"),
+    (11, "outcrop", "2023-06-07", "https://drive.google.com/file/d/1jOZFmJjzKCMub6A7uqUwtuNv97eon2f1/view"),
+    (12, "outcrop", "2023-06-07", "https://drive.google.com/file/d/14r6Kn6_iVZv0DZoXY_TiIgoyWcIZDzbC/view"),
+    (13, "outcrop", "2023-06-07", "https://drive.google.com/file/d/1MY_1i5r3PDK2bnNxS0btG9E22x3HwmTT/view"),
+    (14, "outcrop", "2023-06-07", "https://drive.google.com/file/d/1cwRiSpl4qg-QjeFU0rF2BO5RHN1TdNc0/view"),
+   
+    (15, "outcrop", "2023-06-12", "https://drive.google.com/file/d/1Tx970CsRjrMRZUUpBxQcYv-tjYx9EdIp/view"),
+    (16, "outcrop", "2023-06-12", "https://drive.google.com/file/d/1Z4yTgKVjSedIla2gpBkgE-nBp-6cf75p/view"),
+    (17, "outcrop", "2023-06-12", "https://drive.google.com/file/d/1kJB2vue1RRKMfWJVRjOwickfaCzg5Ogi/view"),
+    (18, "outcrop", "2023-06-12", "https://drive.google.com/file/d/16jFQKL9pvSZc9XPEv2-1CxMotzbttYQC/view"),
+    (19, "outcrop", "2023-06-12", "https://drive.google.com/file/d/1WoU-DIX9DVwnO9RDTBSkuV6g-6ZVzzZv/view"),
 
-INSERT INTO SamplePhoto (PhotoID, SampleID)
+    (20, "outcrop", "2023-06-13", "https://drive.google.com/file/d/1oaa1yDtrIA7mc_afdjN6fjZ6rFexi4TH/view"),
+    (21, "outcrop", "2023-06-13", "https://drive.google.com/file/d/10Ve2lun7tk4sCPFJoRz8Cph_2NCXkyel/view"),
+    (22, "outcrop", "2023-06-13", "https://drive.google.com/file/d/1Bvo32ClFOY-g3ToEjvqmKCBmGPB8AlPC/view"),
+    (24, "outcrop", "2023-06-13", "https://drive.google.com/file/d/10PjQ32QxV9vovR0ZctiXul83agnS1Enq/view"),
+    (25, "outcrop", "2023-06-13", "https://drive.google.com/file/d/107xzeFhHtp62H-FsCAoE8zB4ctmkyAMb/view"),
+    (26, "outcrop", "2023-06-13", "https://drive.google.com/file/d/1AtCx-gM8tB4yoN3thqv5eWO86vLu5Y61/view");
+
+    -- (27, "outcrop", "2023-06-15", "https://drive.google.com/file/d/1oaa1yDtrIA7mc_afdjN6fjZ6rFexi4TH/view"),
+    -- (28, "outcrop", "2023-06-15", "https://drive.google.com/file/d/10Ve2lun7tk4sCPFJoRz8Cph_2NCXkyel/view"),
+    -- (29, "outcrop", "2023-06-15", "https://drive.google.com/file/d/1Bvo32ClFOY-g3ToEjvqmKCBmGPB8AlPC/view"),
+    -- (30, "outcrop", "2023-06-15", "https://drive.google.com/file/d/1Bvo32ClFOY-g3ToEjvqmKCBmGPB8AlPC/view"),
+    -- (31, "outcrop", "2023-06-15", "https://drive.google.com/file/d/10PjQ32QxV9vovR0ZctiXul83agnS1Enq/view"),
+    -- (32, "outcrop", "2023-06-15", "https://drive.google.com/file/d/107xzeFhHtp62H-FsCAoE8zB4ctmkyAMb/view"),
+    -- (33, "outcrop", "2023-06-15", "https://drive.google.com/file/d/1AtCx-gM8tB4yoN3thqv5eWO86vLu5Y61/view"),
+
+INSERT INTO SamplePhoto (SampleID, PhotoID)
 VALUES (1, 1);
 
 
