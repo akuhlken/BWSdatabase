@@ -1,7 +1,9 @@
 -- Bedrock weatering survey database project
 -- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
 
--- for inserting everything else, this may be a helpful tool: https://simranjitk.github.io/sql-converter/
+-- data taken from Google Sheets from summer research. These files were converted into CSV files and scraped
+-- in python to extract the information for the tables. Photo data had to be copied by hand due to the format
+-- of the photos in the original sheet.
 USE bwsurvey;
 
 INSERT INTO Researcher (ID, Name)
