@@ -24,7 +24,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (6, "field", "2023-06-06", "https://drive.google.com/file/d/19PlY64uzAzY7GYw05hLTriKOpeRW-YzG/view"),
     (7, "field", "2023-06-28", "https://drive.google.com/file/d/1Z1N2C4euDcmP8i3WFkTA0SEegDm7NL0u/view"),
     (8, "field", "2023-06-28", "https://drive.google.com/file/d/1Z4Js7IhZDVLjOc6Eo5KHgH23xRIi2EqH/view"),
-
     (9, "field", "2023-06-07", "https://drive.google.com/file/d/17CZcyVEnSF6x4ywACmc1ixV3SXcBX2ID/view"),
     (10, "field", "2023-06-07", "https://drive.google.com/file/d/1idj-Iuo3D4jrqwJpiZ9K2ISnDeqsA0Jt/view"),
     (11, "field", "2023-06-07", "https://drive.google.com/file/d/17dU8brWrsqhoRWl9_tqrX9qCAjIaFAmn/view"),
@@ -33,20 +32,17 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (14, "field", "2023-06-07", "https://drive.google.com/file/d/1MY_1i5r3PDK2bnNxS0btG9E22x3HwmTT/view"),
     (15, "field", "2023-06-07", "https://drive.google.com/file/d/1cwRiSpl4qg-QjeFU0rF2BO5RHN1TdNc0/view"),
     (16, "field", "2023-06-07", "https://drive.google.com/file/d/1Iinmj5DXVg6NA6UE9SluKiMQ_kQWMOFw/view"),
-
     (17, "field", "2023-06-12", "https://drive.google.com/file/d/1Tx970CsRjrMRZUUpBxQcYv-tjYx9EdIp/view"),
     (18, "field", "2023-06-12", "https://drive.google.com/file/d/1Z4yTgKVjSedIla2gpBkgE-nBp-6cf75p/view"),
     (19, "field", "2023-06-12", "https://drive.google.com/file/d/1kJB2vue1RRKMfWJVRjOwickfaCzg5Ogi/view"),
     (20, "field", "2023-06-12", "https://drive.google.com/file/d/16jFQKL9pvSZc9XPEv2-1CxMotzbttYQC/view"),
     (21, "field", "2023-06-12", "https://drive.google.com/file/d/1WoU-DIX9DVwnO9RDTBSkuV6g-6ZVzzZv/view"),
-
     (22, "field", "2023-06-13", "https://drive.google.com/file/d/1oaa1yDtrIA7mc_afdjN6fjZ6rFexi4TH/view"),
     (23, "field", "2023-06-13", "https://drive.google.com/file/d/10Ve2lun7tk4sCPFJoRz8Cph_2NCXkyel/view"),
     (24, "field", "2023-06-13", "https://drive.google.com/file/d/1Bvo32ClFOY-g3ToEjvqmKCBmGPB8AlPC/view"),
     (25, "field", "2023-06-13", "https://drive.google.com/file/d/10PjQ32QxV9vovR0ZctiXul83agnS1Enq/view"),
     (26, "field", "2023-06-13", "https://drive.google.com/file/d/107xzeFhHtp62H-FsCAoE8zB4ctmkyAMb/view"),
     (27, "field", "2023-06-13", "https://drive.google.com/file/d/1AtCx-gM8tB4yoN3thqv5eWO86vLu5Y61/view"),
-
     (28, "field", "2023-06-15", "https://drive.google.com/file/d/1nEgFTfZIw_083t1dyFJlp34jKgE_AzdY/view"),
     (29, "field", "2023-06-15", "https://drive.google.com/file/d/1CtsRkK7S__mlq3mW_MaciMiKnEY_-v27/view"),
     (30, "field", "2023-06-15", "https://drive.google.com/file/d/1tviAptLDvkFXGk6hY7EtjhrB3eJkSAPW/view"),
@@ -57,7 +53,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (35, "field", "2023-06-15", "https://drive.google.com/file/d/1CFe5MrX_te86DvK259yE5VRIwJxjMWSq/view"),
     (36, "field", "2023-06-15", "https://drive.google.com/file/d/1SqbSUNaJrD7ZfG7YmymCLLFKNZpvq74-/view"),
     (37, "field", "2023-06-15", "https://drive.google.com/file/d/1I3FkmDi8iyiKB6WXjakDmOF5ZfWbnDlt/view"),
-
     (38, "field", "2023-07-05", "https://drive.google.com/file/d/1FuidwYLFV90pYGAVl_Cz0Ws315ktGipt/view"),
     (39, "field", "2023-07-05", "https://drive.google.com/file/d/1Fgy2qgv7F2eC7Hg9bhYnQh97hWCVs7MN/view"),
     (40, "field", "2023-07-05", "https://drive.google.com/file/d/1n0imLNchmNOHN7IgGIUZbw4wJ_sa8rwJ/view"),
@@ -73,14 +68,12 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (50, "field", "2023-07-05", "https://drive.google.com/file/d/1mXry9cSeiot5TN-GNlLDlFrHNAOqZfJD/view"),
     (51, "field", "2023-07-05", "https://drive.google.com/file/d/1mcyORggev-Bpm0klZfnN5G5txVEbQWaQ/view"),
     (52, "field", "2023-07-05", "https://drive.google.com/file/d/1HhedNKSpkTzPDHbEoN9R30VZsCCHrp4N/view"),
-
     (53, "field", "2023-06-19", "https://drive.google.com/file/d/1I4LPrIWUllU52HNblEq-CSFFXJQaKxQq/view"),
     (54, "field", "2023-06-19", "https://drive.google.com/file/d/1wSNfI5PkBhsEqVdHqbI7P81QPX53O5he/view"),
     (55, "field", "2023-06-19", "https://drive.google.com/file/d/1zj--QJ82fOdiHujSh0FqOCJupLPbc6ta/view"),
     (56, "field", "2023-06-19", "https://drive.google.com/file/d/15eap8fHfhXAI4oO0TEhsnEgyOEbpWe74/view"),
     (57, "field", "2023-06-19", "https://drive.google.com/file/d/1vf3LLWxqGgaDt1nmMN1taM7rzWKbfrhM/view"),
     (58, "field", "2023-06-19", "https://drive.google.com/file/d/1aWAWpVNpVs2BvQGhmbxrt5KeBoha5oEC/view"),
- 
     (59, "field", "2023-06-20", "https://drive.google.com/file/d/1-jPPZkunqcEJ39BQF7F-ParHwFVYrrP8/view"),
     (60, "field", "2023-06-20", "https://drive.google.com/file/d/1-eQJPl8Qz0Z9FebHZULwVC3HHP2YlRLj/view"),
     (61, "field", "2023-06-20", "https://drive.google.com/file/d/1-Xnv3PILQqJVoAmP2xAtA-o6qmaOH_dA/view"),
@@ -94,7 +87,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (69, "field", "2023-06-20", "https://drive.google.com/file/d/1fmdUJyB4ETvQyobe2RdHf-I2WlG5pqHR/view"),
     (70, "field", "2023-06-20", "https://drive.google.com/file/d/1zydQInITRP7Zs2rcYbUKLXF9su_3Jm60/view"),
     (71, "field", "2023-06-20", "https://drive.google.com/file/d/1zxFK1qRytVAa60xRuvPTAuIdN1Rmwv8r/view"),
-  
     (72, "field", "2023-06-21", "https://drive.google.com/file/d/1ljoLn13oabZg_iKb3vAQIIJubZDABYAH/view"),
     (73, "field", "2023-06-21", "https://drive.google.com/file/d/1NAhUc8tUhmfvWQHs-PXXo4rnk6iqRfWZ/view"),
     (74, "field", "2023-06-21", "https://drive.google.com/file/d/1uJnpNGdoQMkuKYcXGN_VfvcZF9Z2NeJH/view"),
@@ -102,7 +94,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (76, "field", "2023-06-21", "https://drive.google.com/file/d/1JDyQ5uz7x2bE1PDNJRpDCwfu1kj7IxjA/view"),
     (77, "field", "2023-06-21", "https://drive.google.com/file/d/1W0Dzd5-SInlWXTwWZQ0MxhkLZT0nQ_Ff/view"),
     (78, "field", "2023-06-21", "https://drive.google.com/file/d/1ovwMD86UMJDLRvP5XWAa8ccp6xJs6L2h/view"),
- 
     (79, "field", "2023-06-27", "https://drive.google.com/file/d/1TRp8sbFbFIFpSMvFvJNNkoXbAGgc9khf/view"),
     (80, "field", "2023-06-27", "https://drive.google.com/file/d/1kpOPT2jc-L3NsBglcS2Wv2lvRaX-qq3d/view"),
     (81, "field", "2023-06-27", "https://drive.google.com/file/d/1MZtNccEyDM9CbOJa0l62Pfp0P6r0m393/view"),
@@ -118,7 +109,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (91, "field", "2023-06-27", "https://drive.google.com/file/d/1pNy9JNgv3VmzSHGQYaWtq73lrkshVf9o/view"),
     (92, "field", "2023-06-27", "https://drive.google.com/file/d/1QzNiVVaEiWG7oKxvL_si6TCHTQCxQpQx/view");
     (93, "field", "2023-06-27", "https://drive.google.com/file/d/12G7gjYuAG46EwLynvGoJzw-IkvbPBR9S/view"),
- 
     (94, "field", "2023-06-28", "https://drive.google.com/file/d/16fJ-G4LrxGYI2Vz-NsAXydBKEjKkKUgy/view"),
     (95, "field", "2023-06-28", "https://drive.google.com/file/d/16eYne6Uy82o9SBegqq3FJuSoWX06eA3G/view"),
     (96, "field", "2023-06-28", "https://drive.google.com/file/d/16bv_HzpTWsxRntmMqGWVxxImiexhuaWr/view"),
@@ -131,7 +121,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (103, "field", "2023-06-28", "https://drive.google.com/file/d/15qcuCpXpOQ4NPhgx9Ez5zUjJpTE1Y2Db/view"),
     (104, "field", "2023-06-28", "https://drive.google.com/file/d/15qNtbGQIlyvTc-p2hNMnSL_-V1c2sWj9/view"),
     (105, "field", "2023-06-28", "https://drive.google.com/file/d/15kqQgisMiMazFHuDDRdEtuKQx4-3zqjK/view");
-    
     (106, "field", "2023-06-30", "https://drive.google.com/file/d/1DqUObgpNNe3cSAsUTN-h2b7JqFcPpvUF/view"),
     (107, "field", "2023-06-30", "https://drive.google.com/file/d/1DpjUK3qqYMfsFLo2OXZ256G3HraAngVG/view"),
     (108, "field", "2023-06-30", "https://drive.google.com/file/d/1Dmj4K2ZdGjGzOkzWKWUAwz8EzRD6XmQk/view"),
@@ -142,7 +131,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (113, "field", "2023-06-30", "https://drive.google.com/file/d/1D9m9oXQIbzQFZgQ-XZsE6e2aXyGYraiL/view"),
     (114, "field", "2023-06-30", "https://drive.google.com/file/d/1D695Wp8L6mG82nB2lie9AwvpKapQXF1v/view"),
     (115, "field", "2023-06-30", "https://drive.google.com/file/d/1D99eRzF1iGbTcbZTty05bnM5UPf3Wvt3/view"),
- 
     (116, "field", "2023-07-03", "https://drive.google.com/file/d/1H8Hrb4tW245trhc9S4Uqk1w2OYgaEqFj/view"),
     (117, "field", "2023-07-03", "https://drive.google.com/file/d/1mfUl1b2mC3XwQiEB2uwKEJ82XpTD1BQX/view"),
     (118, "field", "2023-07-03", "https://drive.google.com/file/d/19htw_3BiQPsDv7mzYxC5KsZ_ohciK0PS/view"),
@@ -152,7 +140,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (122, "field", "2023-07-03", "https://drive.google.com/file/d/1eG66E2OYCLEu17KefclPQFBsk-iyjd_5/view"),
     (123, "field", "2023-07-03", "https://drive.google.com/file/d/1K68vJEYM90SkCNZeg6mNS-mLP6Hw97sZ/view"),
     (124, "field", "2023-07-03", "https://drive.google.com/file/d/1ta44cCTbuea4p9qCDKu7IHohgz4Je1S4/view");
-  
     (125, "field", "2023-07-06", "https://drive.google.com/file/d/1HKZJ_HNQkzqR1n5G264-yMuw4onUh8hY/view"),
     (126, "field", "2023-07-06", "https://drive.google.com/file/d/1HFnzoTlywWOVMTyXxDTNEJEHXCsfLZzQ/view"),
     (127, "field", "2023-07-06", "https://drive.google.com/file/d/1HBI5hwMEaIS0SzeKQ4YRlvb0-GplLbno/view"),
@@ -165,7 +152,6 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (134, "field", "2023-07-06", "https://drive.google.com/file/d/1GtaYIRX2kyymaAlemrh-4iPi7dbS5R4_/view"),
     (135, "field", "2023-07-06", "https://drive.google.com/file/d/1dZS1-m7d_MS29NqSbb4mThY48oR8RvdZ/view"),
     (136, "field", "2023-07-06", "https://drive.google.com/file/d/1ClAW8nSlajDw1NFt-HWDmB7MTxfb4Gk9/view")
-
     (137, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1e6oqFGG20XrUFg3fxLRvL5R0HLyU1tkZ/view"),
     (138, "outcrop", "2023-06-07", "https://drive.google.com/file/d/1r86OIhyLPPxoQ9CeS-r8ai8rrboKRCXD/view"),
     (139, "outcrop", "2023-06-12", "https://drive.google.com/file/d/1cv-zAtPcNwFgmx0QUe3K7n_U7zLZvRUM/view"),
@@ -179,8 +165,41 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (148, "outcrop", "2023-06-30", "https://drive.google.com/file/d/1eF1GRgb-W4MA9TpZ8l5iPUoOHGmRpckm/view"),
     (149, "outcrop", "2023-07-03", "https://drive.google.com/file/d/1jhNCPJDd8K1fvMyAIx6hmHtz9p5FWyPG/view"),
     (150, "outcrop", "2023-07-06", "https://drive.google.com/file/d/1gTWoKD8-c83VGM-JyzIc-zvQQeZAzX-H/view"),
-
-
+    (151, "thin section", NULL, "https://drive.google.com/file/d/1fPL4bf3DNlzqlMHHIq2Tasv92hrJE_VL/view"),
+    (152, "thin section", NULL, "https://drive.google.com/file/d/1Rc3O-5Tec0X7R_fvSIv7Ioa06FZN73f3/view"),
+    (153, "thin section", NULL, "https://drive.google.com/file/d/1OAF8LXPEk3NYQ49bVrR9CLGbn7DBL80R/view"),
+    (154, "thin section", NULL, "https://drive.google.com/file/d/1WVS4W-a5ONCzh_g1h5M7HArhqXgs3Ksk/view"),
+    (155, "thin section", NULL, "https://drive.google.com/file/d/1OvjSsmDeE0W0ziVOigqBAO0hN0IlbXmp/view"), --WC1-8
+    (156, "thin section", NULL, "https://drive.google.com/file/d/1Y8p8DK_rbT3Sp-Z-5fFVw1kobQDvT7JR/view"), --gic1-6
+    (157, "thin section", NULL, "https://drive.google.com/file/d/1MAC-hWsxuigecDEYy5Do7vudvHZfvRQu/view"), --gic1-11
+    (158, "thin section", NULL, "https://drive.google.com/file/d/19igfxNqixXdbSqv1g8-Z71THZdc8tMld/view"), --gic1-12
+    (159, "thin section", NULL, "https://drive.google.com/file/d/1Z7iXlHll84w5NvwusmfePlKJh02cdltT/view"), --gic1-14
+    (160, "thin section", NULL, "https://drive.google.com/file/d/1k2hy080RGpAmfJEgPsQokJEiLJtX9cfe/view"), --gic1-18
+    (161, "thin section", NULL, "https://drive.google.com/file/d/1oAqepb8mA9u9hETK5INz57i1_SFyhBFy/view"), --gic1-19
+    (162, "thin section", NULL, "https://drive.google.com/file/d/1nQ6zwMe9ymvuxAzr2tzPzoI6_cxcjmN4/view"), --gic2-8
+    (163, "thin section", NULL, "https://drive.google.com/file/d/1qoDGaF3qiw380MZlv-fONbybgad2Pp__/view"), --gic2-10
+    (164, "thin section", NULL, "https://drive.google.com/file/d/1EToCOgM-Bxt7NuuzGYQ8PNmvxMl8hUWw/view"), --gic2-11
+    (165, "thin section", NULL, "https://drive.google.com/file/d/1IbBqya17XYr2UP2zJQ0A0Jt8C_JT4bQR/view"), --gic2-12
+    (166, "thin section", NULL, "https://drive.google.com/file/d/1AWPdtk_2NE0MctCDIryxSmFsw3-719ds/view"), --gic2-13
+    (167, "thin section", NULL, "https://drive.google.com/file/d/1WUlcOmljt9JnV88MCUi_yuBgWeXzvTzE/view"), --IHD1-4
+    (168, "thin section", NULL, "https://drive.google.com/file/d/1HmsmmaJFZs55UaWOS2fOD9XxDWFPLGG_/view"), --IHD1-7
+    (169, "thin section", NULL, "https://drive.google.com/file/d/1QzWhtQ7frCRUa8aaLSyJdjHfYBIoZIFD/view"), --IHD1-8
+    (170, "thin section", NULL, "https://drive.google.com/file/d/1ZUB50DcMc1sIpCX0inIc70Y-dKf0zw9M/view"), --IHD1-11
+    (171, "thin section", NULL, "https://drive.google.com/file/d/1nokkzcj8Wg3U2E42SftCmZ8RMTRloPap/view"), --IHD1-12
+    (172, "thin section", NULL, "https://drive.google.com/file/d/1v6mEFFS3GGPqqzWE2ZaYh7OM-Yj_AQYy/view"), --IHD1-13
+    (173, "thin section", NULL, "https://drive.google.com/file/d/1LS39gX22Qz8bDSZonMnzKjnqAe-NMjB0/view"), --IHD1-18
+    (174, "thin section", NULL, "https://drive.google.com/file/d/1gJYKCfVc52f4wUsaRHDNn-b7649wBhRB/view"), --IHD1-19
+    (175, "thin section", NULL, "https://drive.google.com/file/d/1Ok_jTo0LhcByrZDqsKu3t_VZ1JuWDNdW/view"), --IHD1-20
+    (176, "thin section", NULL, "https://drive.google.com/file/d/1V4Bou5JlJbZ3zvaH1eVfTgi91GK9PjPj/view"), --KID1-1
+    (177, "thin section", NULL, "https://drive.google.com/file/d/1n_Bo6GJa8EF7JV7ZXRbvRL6dhpK8JjmF/view"), --KID1-6
+    (178, "thin section", NULL, "https://drive.google.com/file/d/1H7ZCTyrTAOkFXRUZWX1ZUA2CeiTCIUCB/view"), --KID1-8
+    (179, "thin section", NULL, "https://drive.google.com/file/d/1jYwjujZ_lRQJOTdHp45fEqQO6GJA95_l/view"), --KID1-12
+    (180, "thin section", NULL, "https://drive.google.com/file/d/1s29Pw_PDhfUyRTQyRx0fU1gmD-6dYtSw/view"), --KID1-17
+    (181, "thin section", NULL, "https://drive.google.com/file/d/1DAP_xwSNO4OG64SesTpti_ScN501pEiR/view"), --WC1-3
+    (182, "thin section", NULL, "https://drive.google.com/file/d/1MKxh4zsgXqJKBj5yBw-NLj3PXCnEIR-i/view"), --WC1-4
+    (183, "thin section", NULL, "https://drive.google.com/file/d/1KQzH5fEMQA4JEOEm7YVafZGiztKk2pAE/view"), --WC1-5
+    (184, "thin section", NULL, "https://drive.google.com/file/d/102qrFoOgUxzoviDsFw9pi0Ih4Bw1S_cW/view"); --WC1-7
+    
 
 INSERT INTO SamplePhoto (SampleID, PhotoID)
 VALUES (1, 1),
@@ -200,7 +219,6 @@ VALUES (1, 1),
     (15,6),
     (16,7),
     (17,8),
-
     (18,9),
     (19,10),
     (20,11),
@@ -209,13 +227,11 @@ VALUES (1, 1),
     (27,14),
     (28,15),
     (29,16),
-    
     (33,17),
     (35,18),
     (37,19),
     (38,20),
     (40,21),
-    
     (42,22),
     (49,23),
     (50,24),
@@ -223,7 +239,6 @@ VALUES (1, 1),
     (52,25),
     (53,26),
     (60,27),
-
     (61,28),
     (62,29),
     (63,29),
@@ -233,9 +248,8 @@ VALUES (1, 1),
     (67,33),
     (68,34),
     (69,35),
-    (70,36),  -- 70 is gic2-10
+    (70,36), 
     (73,37),
-    
     (74,38),
     (75,39),
     (76,40),
@@ -251,15 +265,13 @@ VALUES (1, 1),
     (86,50),
     (87,50),
     (89,51),
-    (90,52)
-    
+    (90,52),
     (91,53),
     (93,54),
     (94,55),
     (96,56),
     (97,57),
     (98,58),
-    
     (99,59),
     (100,60),
     (101,61),
@@ -273,7 +285,6 @@ VALUES (1, 1),
     (109,69),
     (110,70),
     (111,71),
-    
     (112,72),
     (113,73),
     (114,74),
@@ -281,7 +292,6 @@ VALUES (1, 1),
     (117,76),
     (118,77),
     (119,78),
-    
     (121,79),
     (122,80),
     (123,81),
@@ -299,7 +309,6 @@ VALUES (1, 1),
     (136,91),
     (137,92),
     (138,93),
-    
     (142,94),
     (143,95),
     (144,96),
@@ -311,8 +320,7 @@ VALUES (1, 1),
     (150,102),
     (151,103),
     (152,104),
-    (153,105)
-    
+    (153,105),
     (154,106),
     (155,107),
     (156,108),
@@ -323,7 +331,6 @@ VALUES (1, 1),
     (161,113),
     (162,114),
     (163,115),
-    
     (164,116),
     (165,117),
     (166,118),
@@ -333,7 +340,6 @@ VALUES (1, 1),
     (170,122),
     (171,123),
     (172,124),
-    
     (173,125),
     (174,126),
     (175,127),
@@ -346,7 +352,40 @@ VALUES (1, 1),
     (182,134),
     (183,135),
     (184,135),
-    (185,136);
+    (185,136),
+    (5,151),
+    (14,152),
+    (17,153),
+    (16,154),
+    (98,155),
+    (47,156),
+    (52,157),
+    (53,158),
+    (55,159),
+    (59,160),
+    (60,161),
+    (68,162),
+    (70,163),
+    (71,164),
+    (72,165),
+    (73,166),
+    (125,167),
+    (128,168),
+    (129,169),
+    (132,170),
+    (133,171),
+    (134,172),
+    (139,173),
+    (140,174),
+    (141,175),
+    (18,176),
+    (23,177),
+    (25,178),
+    (29,179),
+    (114,181),
+    (115,182),
+    (118,183),
+    (119,184);
 
 
 -- Below are insert statments generated by datascraping.py
