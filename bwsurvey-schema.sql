@@ -27,14 +27,15 @@ CREATE TABLE Researcher (
 
 -- Sample table:
 CREATE TABLE Sample (
-    ID VARCHAR(20) PRIMARY KEY,
-    OutcropID INT UNSIGNED NOT NULL,
+    ID INT UNSIGNED PRIMARY KEY,
+    Name VARCHAR(20),
+    OutcropID VARCHAR(8) NOT NULL,
     ResearcherID INT UNSIGNED NOT NULL,
     Type VARCHAR(16) NOT NULL,
-    Depth INT NOT NULL,
+    Depth Decimal(6,2) NOT NULL,
     Description VARCHAR(500) NOT NULL,
     Color VARCHAR(25),
-    Date DATETIME NOT NULL,
+    Date DATE NOT NULL,
     CoarseFraction INT,
     FineFraction INT,
     LayerNumber INT UNSIGNED,
@@ -59,8 +60,8 @@ CREATE TABLE Photo (
 
 -- SamplePhoto table:
 CREATE TABLE SamplePhoto (
+    SampleID INT UNSIGNED,
     PhotoID INT UNSIGNED,
-    SampleID VARCHAR(8),
     PRIMARY KEY (PhotoID, SampleID),
     FOREIGN KEY (PhotoID) references Photo(ID)
         ON DELETE RESTRICT
@@ -76,8 +77,6 @@ CREATE TABLE SampleChemData (
     TestNum INT UNSIGNED,
     SampleID VARCHAR(12) NOT NULL,
     LabID VARCHAR(20) NOT NULL,
-    Depth INT NOT NULL,
-    Description VARCHAR(500) NOT NULL,
     Date DATE NOT NULL,
     SiO2 FLOAT NOT NULL,
     TiO2 FLOAT NOT NULL,

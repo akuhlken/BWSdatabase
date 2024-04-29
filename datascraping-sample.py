@@ -1,12 +1,12 @@
 import csv
 
 # change to the location of the file to scrape
-filename = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\databases\2023 Strat Sections (1).csv"
+filename = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\databases\Samples2023 (3).csv"
 
 # change to where you want the data to go
 savelocation = r"C:\Users\coden\OneDrive - Whitman College\Senior\Spring 2024\results.txt"
 
-insertStatement = "INSERT INTO StratLayer (OutcropID, LayerNumber, Description, TopDepth, BottomDepth)\nVALUES"
+insertStatement = "INSERT INTO Sample (ID, OutcropID, ResearcherID, Type, Depth, Description, Date, CoarseFraction, FineFraction, LayerNumber)\nVALUES"
 startStatement = insertStatement
 
 with open(filename, 'r') as csvfile:
@@ -14,10 +14,13 @@ with open(filename, 'r') as csvfile:
     for row in datareader:
         insertValues = "("
         for column in row:
-            try:
-                int(column)
-            except:
-                column = f"\"{column}\""
+            if not column:
+                column = "NULL"
+            else:
+                try:
+                    float(column)
+                except:
+                    column = f"\"{column}\""
 
             if insertValues == "(":
                 insertValues = "".join([insertValues,column])
