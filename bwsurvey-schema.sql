@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS Outcrop;
 DROP TABLE IF EXISTS Photo;
 DROP TABLE IF EXISTS StratLayer;
 
--- Researcher table(s):
+-- Researcher table:
 CREATE TABLE Researcher (
     ID INT UNSIGNED,
     Name VARCHAR(64) NOT NULL,

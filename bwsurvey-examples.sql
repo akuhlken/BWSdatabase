@@ -1,3 +1,6 @@
+-- Bedrock weatering survey database project
+-- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+
 USE bwsurvey;
 CALL GetAllSamplesBetweenDepths(2.5, 100.5);
 CALL GetAllResearchersFromSite("SG6");

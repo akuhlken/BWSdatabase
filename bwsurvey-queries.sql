@@ -1,3 +1,6 @@
+-- Bedrock weatering survey database project
+-- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+
 USE bwsurvey;
 DROP PROCEDURE IF EXISTS GetAllSamplesBetweenDepths;
 DROP PROCEDURE IF EXISTS GetAllResearchersFromSite;
