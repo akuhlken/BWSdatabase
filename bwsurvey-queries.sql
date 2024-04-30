@@ -27,21 +27,18 @@ CREATE PROCEDURE GetAllResearchersFromSite (IN siteID VARCHAR(8))
     WHERE Outcrop.ID = siteID;
 
 -- What was the grad year of a researcher?
-
 CREATE PROCEDURE GetGradYearOfResearcher(IN name VARCHAR(64))
     SELECT Researcher.Name, Researcher.GradYear
     FROM Researcher
     WHERE Researcher.Name = name;
 
 -- What were all of the researchers that share the same grade year ?
-
 CREATE PROCEDURE GetResearchersFromGradYear (IN year INT)
     SELECT Researcher.GradYear, Researcher.Name
     FROM Researcher
     WHERE Researcher.GradYear = year;
 
 -- How much ____ chemical was in a basalt sample from a particular outcrop?
-
 DELIMITER //
 
 CREATE PROCEDURE GetAllChemicalsFromSample (IN chemicalName VARCHAR(20), IN outcropID VARCHAR(8))
@@ -75,6 +72,7 @@ CREATE PROCEDURE GetSampleFromStratLayer (IN outcropID VARCHAR(8), IN layerNumbe
     INNER JOIN StratLayer ON StratLayer.OutcropID = Sample.OutcropID AND StratLayer.LayerNumber = Sample.LayerNumber
     WHERE Sample.OutcropID = outcropID AND Sample.layerNumber = layerNumber;
 
+-- How many samples were taken from ___ cm below the contact (or below)?
 DELIMITER //
 CREATE FUNCTION CountSamplesUnderDepth (depth DECIMAL(6,2))
 RETURNS INT
@@ -88,6 +86,9 @@ BEGIN
 END//
 DELIMITER ;
 
+-- Adds a photo to the database while also adding it to the sample join table.
+-- takes in all of the information we need for photo while also taking a sample
+--   number that we're linking to.
 DELIMITER //
 CREATE PROCEDURE InsertPhotoThatHasASample (
     IN photoID INT UNSIGNED,
@@ -105,4 +106,3 @@ BEGIN
     VALUES (sampleID, photoID);
 END//
 DELIMITER ;
--- Find all photos that aren't linked to a sample or outcrop
