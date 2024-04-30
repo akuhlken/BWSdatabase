@@ -51,7 +51,7 @@ CREATE TABLE Sample (
 CREATE TABLE Photo (
     ID INT UNSIGNED,
     Type VARCHAR(64) NOT NULL CHECK (Type IN ('outcrop', 'thin section', 'field', 'lab')),
-    Date DATE NOT NULL,
+    Date DATE,
     Time TIME,
     ImageLink VARCHAR(128) NOT NULL,
     PRIMARY KEY (ID)
