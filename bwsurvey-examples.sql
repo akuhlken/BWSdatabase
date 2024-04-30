@@ -1,6 +1,8 @@
 -- Bedrock weatering survey database project
 -- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
 
+-- the purpose of each query is explained in the 'bwsurvey-queries.sql'.
+
 USE bwsurvey;
 
 CALL GetAllSamplesBetweenDepths(2.5, 100.5);
