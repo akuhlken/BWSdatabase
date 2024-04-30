@@ -17,6 +17,8 @@ VALUES (3, "Coden Stark", 2024, 1, 2),
        (6, "Megan Driggers", 2023, 2, 1),
        (7, "Rebecca Patterson", 2025, 2, 1);
 
+-- photo data consists of link to a google drive shared between people who have worked on this research project.
+-- links are only open to people who are on the shared drive, so they'll probably show up as inaccessible.
 INSERT INTO Photo (ID, Type, Date, ImageLink)
 VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJBRI3YGyXNx6WNleKFNVP/view"),
     (2, "field", "2023-06-06", "https://drive.google.com/file/d/1WO6pOWkiIuvn6c3k17xQrYJL2-Go7u3Z/view"),
@@ -72,7 +74,7 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (52, "field", "2023-07-05", "https://drive.google.com/file/d/1HhedNKSpkTzPDHbEoN9R30VZsCCHrp4N/view"),
     (53, "field", "2023-06-19", "https://drive.google.com/file/d/1I4LPrIWUllU52HNblEq-CSFFXJQaKxQq/view"),
     (54, "field", "2023-06-19", "https://drive.google.com/file/d/1wSNfI5PkBhsEqVdHqbI7P81QPX53O5he/view"),
-    (55, "field", "2023-06-19", "https://drive.google.com/file/d/1zj-- QJ82fOdiHujSh0FqOCJupLPbc6ta/view"),
+    (55, "field", "2023-06-19", "https://drive.google.com/file/d/1zj--QJ82fOdiHujSh0FqOCJupLPbc6ta/view"),
     (56, "field", "2023-06-19", "https://drive.google.com/file/d/15eap8fHfhXAI4oO0TEhsnEgyOEbpWe74/view"),
     (57, "field", "2023-06-19", "https://drive.google.com/file/d/1vf3LLWxqGgaDt1nmMN1taM7rzWKbfrhM/view"),
     (58, "field", "2023-06-19", "https://drive.google.com/file/d/1aWAWpVNpVs2BvQGhmbxrt5KeBoha5oEC/view"),
