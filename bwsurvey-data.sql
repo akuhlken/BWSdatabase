@@ -1,9 +1,9 @@
--- Bedrock weatering survey database project
--- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+--  Bedrock weatering survey database project
+--  Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
 
--- data taken from Google Sheets from summer research. These files were converted into CSV files and scraped
--- in python to extract the information for the tables. Photo data had to be copied by hand due to the format
--- of the photos in the original sheet.
+--  data taken from Google Sheets from summer research. These files were converted into CSV files and scraped
+--  in python to extract the information for the tables. Photo data had to be copied by hand due to the format
+--  of the photos in the original sheet.
 USE bwsurvey;
 
 INSERT INTO Researcher (ID, Name)
@@ -72,7 +72,7 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (52, "field", "2023-07-05", "https://drive.google.com/file/d/1HhedNKSpkTzPDHbEoN9R30VZsCCHrp4N/view"),
     (53, "field", "2023-06-19", "https://drive.google.com/file/d/1I4LPrIWUllU52HNblEq-CSFFXJQaKxQq/view"),
     (54, "field", "2023-06-19", "https://drive.google.com/file/d/1wSNfI5PkBhsEqVdHqbI7P81QPX53O5he/view"),
-    (55, "field", "2023-06-19", "https://drive.google.com/file/d/1zj--QJ82fOdiHujSh0FqOCJupLPbc6ta/view"),
+    (55, "field", "2023-06-19", "https://drive.google.com/file/d/1zj-- QJ82fOdiHujSh0FqOCJupLPbc6ta/view"),
     (56, "field", "2023-06-19", "https://drive.google.com/file/d/15eap8fHfhXAI4oO0TEhsnEgyOEbpWe74/view"),
     (57, "field", "2023-06-19", "https://drive.google.com/file/d/1vf3LLWxqGgaDt1nmMN1taM7rzWKbfrhM/view"),
     (58, "field", "2023-06-19", "https://drive.google.com/file/d/1aWAWpVNpVs2BvQGhmbxrt5KeBoha5oEC/view"),
@@ -102,14 +102,14 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (82, "field", "2023-06-27", "https://drive.google.com/file/d/17zNGtUy2J_dAwmjvx-kGR2i66pp-ZO7m/view"),
     (83, "field", "2023-06-27", "https://drive.google.com/file/d/1RmwflwF9lM36zYZtEAOT_pS62z3kYA-3/view"),
     (84, "field", "2023-06-27", "https://drive.google.com/file/d/1wUpCk9T8AA-3XgJaTC1NiKgxyB_t1qZ2/view"),
-    (85, "field", "2023-06-27", "https://drive.google.com/file/d/12BIFoLD5wn8iFD3JzUATdAQ3va9Qc5k4/view");
+    (85, "field", "2023-06-27", "https://drive.google.com/file/d/12BIFoLD5wn8iFD3JzUATdAQ3va9Qc5k4/view"),
     (86, "field", "2023-06-27", "https://drive.google.com/file/d/11O4rE0n2fZvGoSPCaHEqmIM8XSVcNbPq/view"),
     (87, "field", "2023-06-27", "https://drive.google.com/file/d/1iROyExz1IIi6N8_9iPkUo0BbXIza4CKJ/view"),
     (88, "field", "2023-06-27", "https://drive.google.com/file/d/1ygXLZk_jpwTpbU-LSADuLwB7fDgiUYuc/view"),
     (89, "field", "2023-06-27", "https://drive.google.com/file/d/1rQIoSJuzCbGE0U-kvRFtm5Pto2rFJaCC/view"),
     (90, "field", "2023-06-27", "https://drive.google.com/file/d/1ajzyewVYnIrv94g3gEO2JTUK0CiB_RUQ/view"),
     (91, "field", "2023-06-27", "https://drive.google.com/file/d/1pNy9JNgv3VmzSHGQYaWtq73lrkshVf9o/view"),
-    (92, "field", "2023-06-27", "https://drive.google.com/file/d/1QzNiVVaEiWG7oKxvL_si6TCHTQCxQpQx/view");
+    (92, "field", "2023-06-27", "https://drive.google.com/file/d/1QzNiVVaEiWG7oKxvL_si6TCHTQCxQpQx/view"),
     (93, "field", "2023-06-27", "https://drive.google.com/file/d/12G7gjYuAG46EwLynvGoJzw-IkvbPBR9S/view"),
     (94, "field", "2023-06-28", "https://drive.google.com/file/d/16fJ-G4LrxGYI2Vz-NsAXydBKEjKkKUgy/view"),
     (95, "field", "2023-06-28", "https://drive.google.com/file/d/16eYne6Uy82o9SBegqq3FJuSoWX06eA3G/view"),
@@ -122,13 +122,13 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (102, "field", "2023-06-28", "https://drive.google.com/file/d/15tvrlgdrc_xcI5O883H0WPENsKdVY58y/view"),
     (103, "field", "2023-06-28", "https://drive.google.com/file/d/15qcuCpXpOQ4NPhgx9Ez5zUjJpTE1Y2Db/view"),
     (104, "field", "2023-06-28", "https://drive.google.com/file/d/15qNtbGQIlyvTc-p2hNMnSL_-V1c2sWj9/view"),
-    (105, "field", "2023-06-28", "https://drive.google.com/file/d/15kqQgisMiMazFHuDDRdEtuKQx4-3zqjK/view");
+    (105, "field", "2023-06-28", "https://drive.google.com/file/d/15kqQgisMiMazFHuDDRdEtuKQx4-3zqjK/view"),
     (106, "field", "2023-06-30", "https://drive.google.com/file/d/1DqUObgpNNe3cSAsUTN-h2b7JqFcPpvUF/view"),
     (107, "field", "2023-06-30", "https://drive.google.com/file/d/1DpjUK3qqYMfsFLo2OXZ256G3HraAngVG/view"),
     (108, "field", "2023-06-30", "https://drive.google.com/file/d/1Dmj4K2ZdGjGzOkzWKWUAwz8EzRD6XmQk/view"),
     (109, "field", "2023-06-30", "https://drive.google.com/file/d/1DUVOie52uvNyvUnu8ZxBG5ORAhO6CpKe/view"),
     (110, "field", "2023-06-30", "https://drive.google.com/file/d/1DOH2nmUnPZ5qlGkyqlLG9Dl2MPs9YvZL/view"),
-    (111, "field", "2023-06-30", "https://drive.google.com/file/d/1IIkle9iqliXnEa1L7BcTvT-kNF0-ptpk/view")
+    (111, "field", "2023-06-30", "https://drive.google.com/file/d/1IIkle9iqliXnEa1L7BcTvT-kNF0-ptpk/view"),
     (112, "field", "2023-06-30", "https://drive.google.com/file/d/1DB_SBHqjkbAG229fjgAlDDUrJokQoTdf/view"),
     (113, "field", "2023-06-30", "https://drive.google.com/file/d/1D9m9oXQIbzQFZgQ-XZsE6e2aXyGYraiL/view"),
     (114, "field", "2023-06-30", "https://drive.google.com/file/d/1D695Wp8L6mG82nB2lie9AwvpKapQXF1v/view"),
@@ -141,7 +141,7 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (121, "field", "2023-07-03", "https://drive.google.com/file/d/1vbshG4CiiZqSJq80yRMaqzq_2YtcKljE/view"),
     (122, "field", "2023-07-03", "https://drive.google.com/file/d/1eG66E2OYCLEu17KefclPQFBsk-iyjd_5/view"),
     (123, "field", "2023-07-03", "https://drive.google.com/file/d/1K68vJEYM90SkCNZeg6mNS-mLP6Hw97sZ/view"),
-    (124, "field", "2023-07-03", "https://drive.google.com/file/d/1ta44cCTbuea4p9qCDKu7IHohgz4Je1S4/view");
+    (124, "field", "2023-07-03", "https://drive.google.com/file/d/1ta44cCTbuea4p9qCDKu7IHohgz4Je1S4/view"),
     (125, "field", "2023-07-06", "https://drive.google.com/file/d/1HKZJ_HNQkzqR1n5G264-yMuw4onUh8hY/view"),
     (126, "field", "2023-07-06", "https://drive.google.com/file/d/1HFnzoTlywWOVMTyXxDTNEJEHXCsfLZzQ/view"),
     (127, "field", "2023-07-06", "https://drive.google.com/file/d/1HBI5hwMEaIS0SzeKQ4YRlvb0-GplLbno/view"),
@@ -153,7 +153,7 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (133, "field", "2023-07-06", "https://drive.google.com/file/d/1Gu9AyaHkVFmHs8ZTFh0UpzIPI30Fd-Jf/view"),
     (134, "field", "2023-07-06", "https://drive.google.com/file/d/1GtaYIRX2kyymaAlemrh-4iPi7dbS5R4_/view"),
     (135, "field", "2023-07-06", "https://drive.google.com/file/d/1dZS1-m7d_MS29NqSbb4mThY48oR8RvdZ/view"),
-    (136, "field", "2023-07-06", "https://drive.google.com/file/d/1ClAW8nSlajDw1NFt-HWDmB7MTxfb4Gk9/view")
+    (136, "field", "2023-07-06", "https://drive.google.com/file/d/1ClAW8nSlajDw1NFt-HWDmB7MTxfb4Gk9/view"),
     (137, "outcrop", "2023-06-06", "https://drive.google.com/file/d/1e6oqFGG20XrUFg3fxLRvL5R0HLyU1tkZ/view"),
     (138, "outcrop", "2023-06-07", "https://drive.google.com/file/d/1r86OIhyLPPxoQ9CeS-r8ai8rrboKRCXD/view"),
     (139, "outcrop", "2023-06-12", "https://drive.google.com/file/d/1cv-zAtPcNwFgmx0QUe3K7n_U7zLZvRUM/view"),
@@ -171,36 +171,36 @@ VALUES (1, "field", "2023-06-06", "https://drive.google.com/file/d/1WEYwIKuqBSKJ
     (152, "thin section", NULL, "https://drive.google.com/file/d/1Rc3O-5Tec0X7R_fvSIv7Ioa06FZN73f3/view"),
     (153, "thin section", NULL, "https://drive.google.com/file/d/1OAF8LXPEk3NYQ49bVrR9CLGbn7DBL80R/view"),
     (154, "thin section", NULL, "https://drive.google.com/file/d/1WVS4W-a5ONCzh_g1h5M7HArhqXgs3Ksk/view"),
-    (155, "thin section", NULL, "https://drive.google.com/file/d/1OvjSsmDeE0W0ziVOigqBAO0hN0IlbXmp/view"), --WC1-8
-    (156, "thin section", NULL, "https://drive.google.com/file/d/1Y8p8DK_rbT3Sp-Z-5fFVw1kobQDvT7JR/view"), --gic1-6
-    (157, "thin section", NULL, "https://drive.google.com/file/d/1MAC-hWsxuigecDEYy5Do7vudvHZfvRQu/view"), --gic1-11
-    (158, "thin section", NULL, "https://drive.google.com/file/d/19igfxNqixXdbSqv1g8-Z71THZdc8tMld/view"), --gic1-12
-    (159, "thin section", NULL, "https://drive.google.com/file/d/1Z7iXlHll84w5NvwusmfePlKJh02cdltT/view"), --gic1-14
-    (160, "thin section", NULL, "https://drive.google.com/file/d/1k2hy080RGpAmfJEgPsQokJEiLJtX9cfe/view"), --gic1-18
-    (161, "thin section", NULL, "https://drive.google.com/file/d/1oAqepb8mA9u9hETK5INz57i1_SFyhBFy/view"), --gic1-19
-    (162, "thin section", NULL, "https://drive.google.com/file/d/1nQ6zwMe9ymvuxAzr2tzPzoI6_cxcjmN4/view"), --gic2-8
-    (163, "thin section", NULL, "https://drive.google.com/file/d/1qoDGaF3qiw380MZlv-fONbybgad2Pp__/view"), --gic2-10
-    (164, "thin section", NULL, "https://drive.google.com/file/d/1EToCOgM-Bxt7NuuzGYQ8PNmvxMl8hUWw/view"), --gic2-11
-    (165, "thin section", NULL, "https://drive.google.com/file/d/1IbBqya17XYr2UP2zJQ0A0Jt8C_JT4bQR/view"), --gic2-12
-    (166, "thin section", NULL, "https://drive.google.com/file/d/1AWPdtk_2NE0MctCDIryxSmFsw3-719ds/view"), --gic2-13
-    (167, "thin section", NULL, "https://drive.google.com/file/d/1WUlcOmljt9JnV88MCUi_yuBgWeXzvTzE/view"), --IHD1-4
-    (168, "thin section", NULL, "https://drive.google.com/file/d/1HmsmmaJFZs55UaWOS2fOD9XxDWFPLGG_/view"), --IHD1-7
-    (169, "thin section", NULL, "https://drive.google.com/file/d/1QzWhtQ7frCRUa8aaLSyJdjHfYBIoZIFD/view"), --IHD1-8
-    (170, "thin section", NULL, "https://drive.google.com/file/d/1ZUB50DcMc1sIpCX0inIc70Y-dKf0zw9M/view"), --IHD1-11
-    (171, "thin section", NULL, "https://drive.google.com/file/d/1nokkzcj8Wg3U2E42SftCmZ8RMTRloPap/view"), --IHD1-12
-    (172, "thin section", NULL, "https://drive.google.com/file/d/1v6mEFFS3GGPqqzWE2ZaYh7OM-Yj_AQYy/view"), --IHD1-13
-    (173, "thin section", NULL, "https://drive.google.com/file/d/1LS39gX22Qz8bDSZonMnzKjnqAe-NMjB0/view"), --IHD1-18
-    (174, "thin section", NULL, "https://drive.google.com/file/d/1gJYKCfVc52f4wUsaRHDNn-b7649wBhRB/view"), --IHD1-19
-    (175, "thin section", NULL, "https://drive.google.com/file/d/1Ok_jTo0LhcByrZDqsKu3t_VZ1JuWDNdW/view"), --IHD1-20
-    (176, "thin section", NULL, "https://drive.google.com/file/d/1V4Bou5JlJbZ3zvaH1eVfTgi91GK9PjPj/view"), --KID1-1
-    (177, "thin section", NULL, "https://drive.google.com/file/d/1n_Bo6GJa8EF7JV7ZXRbvRL6dhpK8JjmF/view"), --KID1-6
-    (178, "thin section", NULL, "https://drive.google.com/file/d/1H7ZCTyrTAOkFXRUZWX1ZUA2CeiTCIUCB/view"), --KID1-8
-    (179, "thin section", NULL, "https://drive.google.com/file/d/1jYwjujZ_lRQJOTdHp45fEqQO6GJA95_l/view"), --KID1-12
-    (180, "thin section", NULL, "https://drive.google.com/file/d/1s29Pw_PDhfUyRTQyRx0fU1gmD-6dYtSw/view"), --KID1-17
-    (181, "thin section", NULL, "https://drive.google.com/file/d/1DAP_xwSNO4OG64SesTpti_ScN501pEiR/view"), --WC1-3
-    (182, "thin section", NULL, "https://drive.google.com/file/d/1MKxh4zsgXqJKBj5yBw-NLj3PXCnEIR-i/view"), --WC1-4
-    (183, "thin section", NULL, "https://drive.google.com/file/d/1KQzH5fEMQA4JEOEm7YVafZGiztKk2pAE/view"), --WC1-5
-    (184, "thin section", NULL, "https://drive.google.com/file/d/102qrFoOgUxzoviDsFw9pi0Ih4Bw1S_cW/view"); --WC1-7
+    (155, "thin section", NULL, "https://drive.google.com/file/d/1OvjSsmDeE0W0ziVOigqBAO0hN0IlbXmp/view"), -- WC1-8
+    (156, "thin section", NULL, "https://drive.google.com/file/d/1Y8p8DK_rbT3Sp-Z-5fFVw1kobQDvT7JR/view"), -- gic1-6
+    (157, "thin section", NULL, "https://drive.google.com/file/d/1MAC-hWsxuigecDEYy5Do7vudvHZfvRQu/view"), -- gic1-11
+    (158, "thin section", NULL, "https://drive.google.com/file/d/19igfxNqixXdbSqv1g8-Z71THZdc8tMld/view"), -- gic1-12
+    (159, "thin section", NULL, "https://drive.google.com/file/d/1Z7iXlHll84w5NvwusmfePlKJh02cdltT/view"), -- gic1-14
+    (160, "thin section", NULL, "https://drive.google.com/file/d/1k2hy080RGpAmfJEgPsQokJEiLJtX9cfe/view"), -- gic1-18
+    (161, "thin section", NULL, "https://drive.google.com/file/d/1oAqepb8mA9u9hETK5INz57i1_SFyhBFy/view"), -- gic1-19
+    (162, "thin section", NULL, "https://drive.google.com/file/d/1nQ6zwMe9ymvuxAzr2tzPzoI6_cxcjmN4/view"), -- gic2-8
+    (163, "thin section", NULL, "https://drive.google.com/file/d/1qoDGaF3qiw380MZlv-fONbybgad2Pp__/view"), -- gic2-10
+    (164, "thin section", NULL, "https://drive.google.com/file/d/1EToCOgM-Bxt7NuuzGYQ8PNmvxMl8hUWw/view"), -- gic2-11
+    (165, "thin section", NULL, "https://drive.google.com/file/d/1IbBqya17XYr2UP2zJQ0A0Jt8C_JT4bQR/view"), -- gic2-12
+    (166, "thin section", NULL, "https://drive.google.com/file/d/1AWPdtk_2NE0MctCDIryxSmFsw3-719ds/view"), -- gic2-13
+    (167, "thin section", NULL, "https://drive.google.com/file/d/1WUlcOmljt9JnV88MCUi_yuBgWeXzvTzE/view"), -- IHD1-4
+    (168, "thin section", NULL, "https://drive.google.com/file/d/1HmsmmaJFZs55UaWOS2fOD9XxDWFPLGG_/view"), -- IHD1-7
+    (169, "thin section", NULL, "https://drive.google.com/file/d/1QzWhtQ7frCRUa8aaLSyJdjHfYBIoZIFD/view"), -- IHD1-8
+    (170, "thin section", NULL, "https://drive.google.com/file/d/1ZUB50DcMc1sIpCX0inIc70Y-dKf0zw9M/view"), -- IHD1-11
+    (171, "thin section", NULL, "https://drive.google.com/file/d/1nokkzcj8Wg3U2E42SftCmZ8RMTRloPap/view"), -- IHD1-12
+    (172, "thin section", NULL, "https://drive.google.com/file/d/1v6mEFFS3GGPqqzWE2ZaYh7OM-Yj_AQYy/view"), -- IHD1-13
+    (173, "thin section", NULL, "https://drive.google.com/file/d/1LS39gX22Qz8bDSZonMnzKjnqAe-NMjB0/view"), -- IHD1-18
+    (174, "thin section", NULL, "https://drive.google.com/file/d/1gJYKCfVc52f4wUsaRHDNn-b7649wBhRB/view"), -- IHD1-19
+    (175, "thin section", NULL, "https://drive.google.com/file/d/1Ok_jTo0LhcByrZDqsKu3t_VZ1JuWDNdW/view"), -- IHD1-20
+    (176, "thin section", NULL, "https://drive.google.com/file/d/1V4Bou5JlJbZ3zvaH1eVfTgi91GK9PjPj/view"), --  KID1-1
+    (177, "thin section", NULL, "https://drive.google.com/file/d/1n_Bo6GJa8EF7JV7ZXRbvRL6dhpK8JjmF/view"), --  KID1-6
+    (178, "thin section", NULL, "https://drive.google.com/file/d/1H7ZCTyrTAOkFXRUZWX1ZUA2CeiTCIUCB/view"), --  KID1-8
+    (179, "thin section", NULL, "https://drive.google.com/file/d/1jYwjujZ_lRQJOTdHp45fEqQO6GJA95_l/view"), --  KID1-12
+    (180, "thin section", NULL, "https://drive.google.com/file/d/1s29Pw_PDhfUyRTQyRx0fU1gmD-6dYtSw/view"), --  KID1-17
+    (181, "thin section", NULL, "https://drive.google.com/file/d/1DAP_xwSNO4OG64SesTpti_ScN501pEiR/view"), --  WC1-3
+    (182, "thin section", NULL, "https://drive.google.com/file/d/1MKxh4zsgXqJKBj5yBw-NLj3PXCnEIR-i/view"), --  WC1-4
+    (183, "thin section", NULL, "https://drive.google.com/file/d/1KQzH5fEMQA4JEOEm7YVafZGiztKk2pAE/view"), --  WC1-5
+    (184, "thin section", NULL, "https://drive.google.com/file/d/102qrFoOgUxzoviDsFw9pi0Ih4Bw1S_cW/view"); --  WC1-7
     
 
 INSERT INTO SamplePhoto (SampleID, PhotoID)
@@ -390,7 +390,7 @@ VALUES (1, 1),
     (119,184);
 
 
--- Below are insert statments generated by datascraping.py
+--  Below are insert statments generated by datascraping.py
 
 INSERT INTO Outcrop (ID, Description, Location, 3Dmodel, OrthophotoID) 
     VALUES ("SG6","Small tributary of Spring Gulch on NortAUTO_INCREMENTh Side of Spring Gulch on a south-facing slope. 1st order drainage. Hillslope continuously mantled in thin colluvium with sparse exposures of bedrock. Colluvium ranges in thickness from 30 cm to 80 cm from bottom of site to top. The site is approximately 10 meters from bottom of drainage. Backslope of hillslope; slope shape is linear. Frenchman Springs overlain by Umatilla basalt.",Point(-118.913026, 46.0077),"https://cloud.pix4d.com/dataset/1540228/model?shareToken=b20c98de-6000-41c2-a213-67660ebdbd9c", 137), 
@@ -402,14 +402,14 @@ INSERT INTO Outcrop (ID, Description, Location, 3Dmodel, OrthophotoID)
     ("WC2","Slightly further north than WC1 but along the same roadcut facing WNW. To the left of the site was thick layers of modern carbonate between the modern soil and basalt below. Modern soil with grass and sagebrush is above the outcrop, then crumbly basalt mixed with a finer sediment matrix and roots. Below basalt is a gley colored wavy layer like the smaller area at top of columnar structure layer in WC1. It has clasts and appears to be part of a flame structure maybe. Under the blue is a columnar ped(?) layer before going into Pomona basalt float with finer soil as the matrix. The lowest layer is solid Pomona basalt, and underneath is just talus and finer sediment that slopes down to the road.",Point(-119.457419, 46.185941),"https://cloud.pix4d.com/dataset/1552901/model?shareToken=21005617-a4c3-4d99-9f6b-9184e10156c3", 144), 
     ("WC3","Opposite hillslope from WC1 and WC2 on the ESE facing hillslope. Slope is mostly covered with colluvium and grass with some exposed Elephant Mountain and Pomona basalts. Site was a contact between EM and Pomona, with both found exposed at the surface of the slope nearby. Apparant soil development between the two flows when colluvium was cleared away.",Point(-119.458592, 46.185901),"https://cloud.pix4d.com/dataset/1554158/model?shareToken=1a9c4780-0dc4-4362-8593-24d196fcfbdd", 145), 
     ("IHD1","On northwest facing slope on a cliff to the northeast of the Ice Harbor dam and the Indian Monument. Along the Snake River, the outcrop is NE of the Goose Island Cliff (GIC) sites. The cliff itself can be access via a roadgrade that decends from the Indian Monument parking area and consists of cliffs of columnar and more rubbly basalt (the top cliff with a radial structure on southern end that's interpreted to be a lava tube), colluvium, loess, and vegetation. The outcrop is immediately below the top set of columnar basal and is a long vertical trench that reaches down to the basalt below.",Point(-118.8755, 46.246063),"https://cloud.pix4d.com/dataset/1560657/model?shareToken=52b4ff24-1dac-45fe-acc6-7fbe1ae3f63d", 146), 
-    ("SGQ1","Exposed cliffs of columnar Umatilla basalt along entrance road to Spring Gulch, east of the SG sites. Above the cliff is a field with about a meter of loess, modern soil, and grass. It's a southeast facing hill slope where the cliff wall is unstable/separating from base and there's spheroidally rounded talus beneath. The base of the outcrop has been flattened by people for quarrying purposes.",Point(-118.898303, 46.005325),""), 
+    ("SGQ1","Exposed cliffs of columnar Umatilla basalt along entrance road to Spring Gulch, east of the SG sites. Above the cliff is a field with about a meter of loess, modern soil, and grass. It's a southeast facing hill slope where the cliff wall is unstable/separating from base and there's spheroidally rounded talus beneath. The base of the outcrop has been flattened by people for quarrying purposes.",Point(-118.898303, 46.005325),"", NULL), 
     ("TC1","Southeast facing hillslope. Contact between Grande Ronde basalt flows (N2 and R2) with a modern soil developed on top. While the contact itself is part of a basalt cliff, the outcrop is part of a larger hillslope. Upslope of the outcrop are basalt columns sticking out of the grass (at least 10m above). The outcrop is at the base of a drainage from the slope above, and the upper surface of the upper basalt tilts downward to the left (toward the drainage). There's a very thin modern soil directly above the upper basalt with lots of grass. Below the top flow is red rubbly vesicular basalt facies. The lower basalt is very vesicular and fractured.",Point(-118.046308, 45.982907),"https://cloud.pix4d.com/dataset/1564700/model?shareToken=9e7d8756-e91d-4b26-92d1-f214257211c2", 148), 
     ("TC2","An outcrop showing the development of a modern soil on top of the Grande Ronde basalts. It's at a bend on the road with another road diverting off just below. The outcrop is on a west facing hillslope/roadcut with shurbs and grass in a variably thick soil above basalt. The soil had lots of roots and is above spheroidally weathered basalt clasts. Buried in the talus and fine grained weathered basalt is more basalt that is crumbly and more priable(?) than what it's below. The outcrop is about 2 meters above the road surface and is near the top of the sloped surface.",Point(-118.016742, 45.942744),"https://cloud.pix4d.com/dataset/1564758/model?shareToken=a9b84936-4717-463f-a41b-b25e68224b1e", 149), 
     ("BM1","Basalt cliffs exposed in a roadcut along the road to Jubilee Lake. Down the road from the outlook/pull out where Dylan worked on BM2. It's a south facing hillslope with a contact between the upper Lookingglass Basalt (rubbly and columnar) and the lower Grande Ronde N2 (vesicular and fractured). Between the two basalt flows is a very red layer with core stones and paleosoil. Above the upper Lookingglass basalt is a shallow slope with grass and shrubs. Below the outcrop is a talus pile with basalt clasts of various sizes. The Frenchman Springs basalt is also visible on the same hillslope, exposed near the top of the slope to the right of the outcrop.",Point(-118.046241, 45.775223),"https://cloud.pix4d.com/dataset/1566671/model?shareToken=5a4804b0-423e-4da5-9b06-7f88eb21dfdb", 142),
     ("WEH1","On old paved road off of Oregon HW 204, the Weston-Elgin Highway. The contact between Grande Ronde N2 (lower) and Lookingglass (upper) is exposed in a roadcut along the highway, but is closer to road level (about 2 meters up) around the corner in the outcrop. Between the two basalt layers is a very red layer with vesicular basalt and red clay-y to more solid material. The Lookingglass is unburied and visible all along the roadcut, but the contact and lower N2 basalt was mostly buried. Below the outcrop is a mix of fine grained sediment and basalt talus. It's a southeast facing hillslope.",Point(-118.119597, 45.787658),"https://cloud.pix4d.com/dataset/1568965/model?shareToken=bab13421-5184-4829-9484-b88aa678391f", 150);
 
 
--- Need to fix first column to work with table:
+--  Need to fix first column to work with table:
 INSERT INTO StratLayer (OutcropID, LayerNumber, Description, TopDepth, BottomDepth)
 VALUES ("SG6",1,"A-horizon. Frequent fine roots, very slight darkening, greyer in color, less gravel, dominated by sands and silts", 72, 69),
     ("SG6",2,"C1 horizon. Silty sandy C, rock fragments of basalt up to 3cm in width. Angular, fine to very fine roots.", 69, 60),
@@ -420,7 +420,7 @@ VALUES ("SG6",1,"A-horizon. Frequent fine roots, very slight darkening, greyer i
     ("SG6",7,"more competant spheroidally weathered vesicular basalt. Vesicles are filled with powdery oxides. Likely Fe and Mn oxides. This basalt is heavily weathered to a purple-ish color.Sugary/powdery crystalline material in vesicles, flaky yellowish powder, red infillings. Silica crust.", -29, -70),
     ("SG6",8,"abrupt and wavy upper boundary. Model layer, ledge/step former. Vesicular, up to 1cm in size, less weathered, more resistant than overlying layer. Less infillings of orangey material. White material fizzes with HCl, likely accumulation of CaCO3.", -70, -79),
     ("SG6",9,"more resistant, deeply weathered basalt with lots of colors. Reddish and orange indicating mire intensely weathered between cores of basalt. Less weathered basalt still has vesicles completely filled with material that looks like clays, representing intense weathering of basalt and little primary minerals present.", -79, -100),
-    ("SG6",10,"deeply weathered basalt with more resistant corestone--interiors of corestones behave more like rock and less like sapprolite. Entire layer graded top dowb from more to less weathered. Cores at bottom are darker and less weathered, most vesicles filled . Pervasive vertical and horizontal joints filled with CaCO3 corresponding to its position near modern colluvium. Between corestone: black-green-grey fine-grained matrix, can break apart with fingers, no distrinct basalt clasts. Stage 4 saprolite? Deeply weathered with some primary vesicles present.", -100, -155),
+    ("SG6",10,"deeply weathered basalt with more resistant corestone-- interiors of corestones behave more like rock and less like sapprolite. Entire layer graded top dowb from more to less weathered. Cores at bottom are darker and less weathered, most vesicles filled . Pervasive vertical and horizontal joints filled with CaCO3 corresponding to its position near modern colluvium. Between corestone: black-green-grey fine-grained matrix, can break apart with fingers, no distrinct basalt clasts. Stage 4 saprolite? Deeply weathered with some primary vesicles present.", -100, -155),
     ("SG6",11,"More weathered bedrock, 45 cm thick. Slightly vesicular basalt, thuds with hammer. Vesicled filled with reddish or yellowish material. Chemical alteration present. Corestones are 5 to 25 cm wide.", -155, -200),
     ("SG6",12,"vesicles and CaCO3 decreasing as you go down the layer. Very unweathered. light reddening on fractured surfaces.", -200, -250);
 
@@ -535,7 +535,7 @@ INSERT INTO StratLayer (OutcropID, LayerNumber, Description, TopDepth, BottomDep
     ("WEH1",5,"In the separate cleaned outcrop to the left, where the top layer of red below contact is larger. Even the layer below has fewer and smaller basalt clasts (up to 20cm). The top reddened layer appears like soil aggregates (2-3 cm across) and blocky. More grey/purple than red at the top. Clayey. Top 2 cm or two appear more indurated, potentially cooked by the overlying Lookingglass flow. ",0,-15);
 
 
--- Samples:
+--  Samples:
 INSERT INTO Sample (ID, Name, OutcropID, ResearcherID, Type, Depth, Description, Color, Date, CoarseFraction, FineFraction, LayerNumber)
     VALUES (1,"RP-23-SG6-1","SG6",7,"Rock Clast ",54,"Clast from C2 horizon w/ calcium carbonate coating (due to weathering/leeching in modern day soil)","7.5YR 5-2","2023-06-06",NULL,NULL,3),
     (2,"RP23-SG6-2","SG6",7,"Basalt Clast",23,"Mostly unweathered Umatilla basalt clast from R horizon","10YR 5-1","2023-06-06",NULL,NULL,4),
@@ -723,7 +723,7 @@ INSERT INTO Sample (ID, Name, OutcropID, ResearcherID, Type, Depth, Description,
     (184,"HC23-WEH1-12","WEH1",4,"sediment sample (for thin section)",-12.5,"dark red material from right outcrop, same as HC23-WEH1-11. Larger piece for thin section. Original orientation is recorded with arrow pointing up.",NULL,"2023-07-06",NULL,NULL,5),
     (185,"HC23-WEH1-13","WEH1",4,"sediment sample, xrf",-50,"red material from between the basalt clasts in the right outcrop. basalt clasts were smaller and less frequent than main outcrop.","10R 4-6","2023-07-06",NULL,NULL,4);
 
--- SampleChemData
+--  SampleChemData
 INSERT INTO SampleChemData (TestNum, SampleID, LabID, Date, SiO2, TiO2, Al2O3, FeO, MnO, MgO, CaO, Na2O, K2O, P2O5, Sum, LOI, SiO2n, TiO2n, Al2O3n, FeOn, MnOn, MgOn, CaOn, Na2On, K2On, P2O5n, Ni, Cr, Sc, V, Ba, Rb, Sr, Zr, Y, Nb, Ga, Cu, Zn, Pb, La, Ce, Th, Nd, U, SumTr, PrctTr, MinPlusTr, MajPlusTrOx, w_LOI, IfFerric, NiO, Cr2O3, Sc2O3, V2O3, BaO, Rb2O, SrO, ZrO2, Y2O3, Nb2O5, Ga2O3, CuO, ZnO, PbO, La2O3, CeO2, ThO2, Nd2O3, U2O3, SumTrOx, PrctTrOx)
     VALUES ("TestNum","SampleID","LabID","Date","SiO2","TiO2","Al2O3","FeO","MnO","MgO","CaO","Na2O","K2O","P2O5","Sum","LOI","SiO2n","TiO2n","Al2O3n","FeOn","MnOn","MgOn","CaOn","Na2On","K2On","P2O5n","Ni","Cr","Sc","V","Ba","Rb","Sr","Zr","Y","Nb","Ga","Cu","Zn","Pb","La","Ce","Th","Nd","U","SumTr","PrctTr","MinPlusTr","MajPlusTrOx","w_LOI","IfFerric","NiO","Cr2O3","Sc2O3","V2O3","BaO","Rb2O","SrO","ZrO2","Y2O3","Nb2O5","Ga2O3","CuO","ZnO","PbO","La2O3","CeO2","ThO2","Nd2O3","U2O3","SumTrOx","PrctTrOx"),
     (1,173,"GAL-NB-165-1","8/3/2023",54.83,2.729,13.01,13.5,0.203,2.44,5.99,3.26,1.81,0.801,98.58,1.19,55.61,2.77,13.2,13.7,0.21,2.48,6.08,3.31,1.84,0.81,1,0,33,162,851,55,315,244,53,17.7,24,11,162,8,31,68,6,43,2,2086,0.21,98.79,98.84,100.03,101.53,0.9,0,50.4,238,950.6,59.8,372.9,329.4,66.9,25.3,32.5,14,201.3,9.2,36.4,84.2,6.5,50.2,1.7,2530,0.25),
