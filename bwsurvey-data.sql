@@ -1,5 +1,6 @@
 --  Bedrock weatering survey database project
 --  Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+-- This SQL file inserts all of our data into our tables
 
 --  data taken from Google Sheets from summer research. These files were converted into CSV files and scraped
 --  in python to extract the information for the tables. Photo data had to be copied by hand due to the format

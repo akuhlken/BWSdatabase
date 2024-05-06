@@ -1,5 +1,6 @@
 -- Bedrock weatering survey database project
 -- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+-- This SQL file creates the tables structure, entities, and relationships
 USE bwsurvey;
 DROP TABLE IF EXISTS Researcher;
 DROP TABLE IF EXISTS Sample;
