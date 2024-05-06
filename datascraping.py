@@ -1,4 +1,10 @@
-# 
+#  Bedrock weatering survey database project
+#  Contributers: Andrew Kuhlken, Coden Stark, Luca Viarengo
+
+#  Python file that serves as our base for converting CSV files with data
+#  into valid insert statements. It's set up to handle outcrop data.
+#  The insert statements are saved into text files which can then be copied
+#  into our insert SQL file.
 
 import csv
 

@@ -1,5 +1,5 @@
 -- Bedrock weatering survey database project
--- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+-- Contributers: Andrew Kuhlken, Coden Stark, Luca Viarengo
 -- This sql file creates all of the predefined procedures and functions that we have created for this database
 
 USE bwsurvey;

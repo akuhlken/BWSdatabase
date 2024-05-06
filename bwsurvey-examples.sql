@@ -1,5 +1,5 @@
 -- Bedrock weatering survey database project
--- Contriubuters: Andrew Kuhlken, Coden Stark, Luca Viarengo
+-- Contributers: Andrew Kuhlken, Coden Stark, Luca Viarengo
 -- This sql file just calls example values for procedures and function calls created in bwsurvey-queries.sql
 -- the purpose of each query is explained in the 'bwsurvey-queries.sql'.
 
